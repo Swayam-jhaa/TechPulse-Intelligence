@@ -18,9 +18,9 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Citrix NetScaler vulnerability CVE-2026-19490 presents a elevated risk with an EPSS score in the 92.89th percentile, allowing unauthenticated remote access when configured as an AAA virtual server or Gateway.
-- Shopify announced a major architectural retreat from React Native back to native Swift and Kotlin codebases.
-- DeepSeek released DeepSeek-V4.1-Flash, pushing forward low-latency multimodal image-text-to-text open-weight capabilities.
+- Citrix NetScaler CVE-2026-19490 presents an urgent authentication bypass risk with an EPSS exploit probability score in the 92.89th percentile.
+- Shopify announced an architectural shift from React Native back to native Swift and Kotlin for mobile development.
+- DeepSeek-V4.1-Flash open-weights multimodal model debuted with over 1,600 community upvotes.
 
 👉 **[Read Full Daily Intelligence Report (2026-09-11)](reports/2026/09/2026-09-11.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->

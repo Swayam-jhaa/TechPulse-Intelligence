@@ -4,7 +4,7 @@
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
     "top_epss": 0.06,
-    "summary": "The global cyber threat climate remains HIGH day-over-day, anchored by severe edge-device authentication bypasses and high-probability exploit vectors targeting critical infrastructure and end-user ru...",
+    "summary": "Today's threat climate remains HIGH, matching yesterday's elevated baseline posture due to a cluster of severe vulnerabilities across perimeter devices and core infrastructure. A critical authenticati...",
     "cves_count": 5,
     "ai_count": 4,
     "tools_count": 4,
