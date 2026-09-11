@@ -1,0 +1,52 @@
+name: Daily TechPulse Intelligence & Streak
+
+on:
+  schedule:
+    # Runs everyday at 04:15 UTC (approx 09:45 IST)
+    - cron: '15 4 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  daily-pulse:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r techpulse-intelligence/requirements.txt
+
+      - name: Apply Random Organic Jitter
+        if: github.event_name == 'schedule'
+        run: |
+          # Sleep randomly between 5 and 45 minutes for humanized streak timing
+          DELAY=$(( (RANDOM % 2400) + 300 ))
+          echo "Engaging organic jitter delay: $DELAY seconds..."
+          sleep $DELAY
+
+      - name: Run TechPulse Intelligence Pipeline
+        working-directory: techpulse-intelligence
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.6-flash
+          GIT_USER_NAME: ${{ secrets.GIT_USER_NAME || 'swayam jha' }}
+          GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL || 'swayamjhaoffical@gmail.com' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "${{ secrets.GIT_USER_NAME || 'swayam jha' }}"
+          git config --global user.email "${{ secrets.GIT_USER_EMAIL || 'swayamjhaoffical@gmail.com' }}"
+          python main.py run --auto-commit --auto-push
