@@ -379,11 +379,40 @@ def save_report(report: DailyReport) -> Dict[str, str]:
     _update_archive_index(report, json_rel, md_rel)
     feed_paths = _generate_rss_feed()
 
-    # 6. Update README
+    # 6. Save latest.json and mirror into web/public/data
+    latest_file = DATA_DIR / "latest.json"
+    report_json_str = report.model_dump_json(indent=2)
+    with open(latest_file, "w", encoding="utf-8") as f:
+        f.write(report_json_str)
+
+    web_data_dir = BASE_DIR / "web" / "public" / "data"
+    try:
+        web_json_dir = web_data_dir / year / month
+        web_json_dir.mkdir(parents=True, exist_ok=True)
+        web_json_file = web_json_dir / f"{report.date}.json"
+        web_latest_file = web_data_dir / "latest.json"
+
+        with open(web_json_file, "w", encoding="utf-8") as f:
+            f.write(report_json_str)
+        with open(web_latest_file, "w", encoding="utf-8") as f:
+            f.write(report_json_str)
+
+        import shutil
+        if INDEX_FILE.exists():
+            shutil.copy2(INDEX_FILE, web_data_dir / "archive_index.json")
+        if RSS_FILE.exists():
+            shutil.copy2(RSS_FILE, web_data_dir / "rss.xml")
+        if FEED_FILE.exists():
+            shutil.copy2(FEED_FILE, web_data_dir / "feed.xml")
+    except Exception as e:
+        print(f"[!] Warning mirroring data to web/public/data: {e}")
+
+    # 7. Update README
     _update_readme(report, md_rel)
 
     print(f"[+] Serialized Web JSON: {json_rel}")
     print(f"[+] Serialized Report Markdown: {md_rel}")
+    print(f"[+] Serialized latest.json & mirrored to web/public/data")
     print(f"[+] Updated archive index: data/archive_index.json")
     print(f"[+] Syndication feeds generated: {feed_paths['rss_rel']} & {feed_paths['feed_rel']}")
 

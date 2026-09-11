@@ -13,16 +13,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-04 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-11 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Security posture elevates to HIGH due to high-exploitability flaws in Starlette (CVE-2026-48710, EPSS 11.04%), Sangoma Switchvox (CVE-2026-9586, EPSS 11.85%), and JFrog Artifactory (CVE-2026-82329, EPSS 7.67%).
-- Open-weight multimodal foundation models advance with major releases Qwen3.8-27B and GLM-5.3, alongside Cerebras demonstrating 1,500 tokens/sec wafer-scale inference.
-- Shadcn-ui releases 'cn', achieving a 30x performance speedup for Tailwind CSS class merging while maintaining full API parity with tailwind-merge.
+- Citrix NetScaler vulnerability CVE-2026-19490 presents a elevated risk with an EPSS score in the 92.89th percentile, allowing unauthenticated remote access when configured as an AAA virtual server or Gateway.
+- Shopify announced a major architectural retreat from React Native back to native Swift and Kotlin codebases.
+- DeepSeek released DeepSeek-V4.1-Flash, pushing forward low-latency multimodal image-text-to-text open-weight capabilities.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-04)](reports/2026/09/2026-09-04.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-11)](reports/2026/09/2026-09-11.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

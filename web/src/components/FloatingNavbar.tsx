@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "motion/react";
-import { Volume2, VolumeX } from "lucide-react";
+import { Volume2, VolumeX, RefreshCw } from "lucide-react";
 
 export type PageView = "today" | "explore" | "archive";
 
@@ -12,6 +12,8 @@ interface FloatingNavbarProps {
   threatLevel?: string;
   isAudioPlaying: boolean;
   onToggleAudio: () => void;
+  isSyncing?: boolean;
+  onSync?: () => void;
 }
 
 export const FloatingNavbar: React.FC<FloatingNavbarProps> = ({
@@ -19,6 +21,8 @@ export const FloatingNavbar: React.FC<FloatingNavbarProps> = ({
   onSelectPage,
   isAudioPlaying,
   onToggleAudio,
+  isSyncing,
+  onSync,
 }) => {
   const navItems: { id: PageView; label: string; shortLabel: string }[] = [
     { id: "today", label: "Today's Briefing", shortLabel: "Today" },
@@ -67,8 +71,28 @@ export const FloatingNavbar: React.FC<FloatingNavbarProps> = ({
           })}
         </nav>
 
-        {/* Minimal Synth Audio Toggle */}
-        <div className="pl-1 sm:pl-2 border-l border-stone-800/80">
+        {/* Action Controls: Live Sync & Minimal Synth Audio Toggle */}
+        <div className="flex items-center gap-1 pl-1 sm:pl-2 border-l border-stone-800/80">
+          {onSync && (
+            <button
+              onClick={onSync}
+              disabled={isSyncing}
+              aria-label="Sync latest intelligence from GitHub"
+              className={`p-1.5 rounded-full transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 active:scale-[0.94] ${
+                isSyncing
+                  ? "text-stone-100"
+                  : "text-stone-500 hover:text-stone-200"
+              }`}
+              title="Sync Latest Daily Intelligence from GitHub"
+            >
+              <RefreshCw
+                className={`w-3.5 h-3.5 ${isSyncing ? "animate-spin text-stone-200" : ""}`}
+                strokeWidth={1.5}
+                aria-hidden="true"
+              />
+            </button>
+          )}
+
           <button
             onClick={onToggleAudio}
             aria-label={isAudioPlaying ? "Mute ambient synth" : "Play ambient synth"}

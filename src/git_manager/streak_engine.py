@@ -84,8 +84,8 @@ def execute_streak_commit(date_str: str, auto_push: bool = False, dry_run: bool 
     # 1. Enforce configured author identity
     configure_git_identity()
 
-    # 2. Stage only data, reports, and updated README
-    add_res = _run_git(["add", "data/", "reports/", "README.md"])
+    # 2. Stage data, reports, mirrored web data, and updated README
+    add_res = _run_git(["add", "data/", "reports/", "web/public/data/", "README.md"])
     if add_res.returncode != 0:
         err = f"Failed to stage changes: {add_res.stderr}"
         print(f"[!] {err}")
