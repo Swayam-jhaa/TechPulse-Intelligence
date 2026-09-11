@@ -4,7 +4,7 @@ const isGithubActions = process.env.GITHUB_ACTIONS === "true";
 
 const nextConfig: NextConfig = {
   output: isGithubActions ? "export" : undefined,
-  basePath: isGithubActions ? "/Dev-Lab" : "",
+  basePath: isGithubActions ? "/techpulse-intelligence" : "",
   reactStrictMode: true,
   images: {
     unoptimized: true,

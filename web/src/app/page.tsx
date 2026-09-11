@@ -16,7 +16,7 @@ import archiveIndexRaw from "../../../data/archive_index.json";
 const defaultReport = latestReportRaw as unknown as DailyReport;
 const defaultIndex = archiveIndexRaw as unknown as ArchiveIndexItem[];
 
-const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/Swayam-jhaa/Dev-Lab/main/techpulse-intelligence/data";
+const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/Swayam-jhaa/techpulse-intelligence/main/data";
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState<PageView>("today");
