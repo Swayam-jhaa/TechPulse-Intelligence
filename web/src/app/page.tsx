@@ -10,8 +10,8 @@ import { DetailModal, ModalPayload } from "../components/DetailModal";
 import { toggleFrequencyAudio, isAudioActive } from "../utils/audioSynth";
 
 // Default bundled intelligence report and archive index
-import latestReportRaw from "../../../data/latest.json";
-import archiveIndexRaw from "../../../data/archive_index.json";
+import latestReportRaw from "../../public/data/latest.json";
+import archiveIndexRaw from "../../public/data/archive_index.json";
 
 const defaultReport = latestReportRaw as unknown as DailyReport;
 const defaultIndex = archiveIndexRaw as unknown as ArchiveIndexItem[];
