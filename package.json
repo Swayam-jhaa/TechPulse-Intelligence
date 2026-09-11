@@ -2,7 +2,7 @@
   "name": "techpulse-intelligence",
   "version": "1.0.0",
   "private": true,
-  "description": "TechPulse Intelligence - Autonomous OSINT & Threat Radar with Classical Roman Aesthetics",
+  "description": "TechPulse Intelligence - Autonomous Daily Threat Radar & Technology Intelligence Platform",
   "scripts": {
     "dev": "npm --prefix web run dev",
     "build": "npm --prefix web run build",
