@@ -1,0 +1,6 @@
+{
+  "name": "TechPulse Intelligence",
+  "description": "Daily cyber threat radar, AI breakthroughs, and tech intelligence dashboard featuring the classical Icarus marble bust with glowing frequency halo, interactive audio synthesis, and minimalist 3-page navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

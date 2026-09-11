@@ -1,0 +1,15 @@
+[
+  {
+    "date": "2026-09-04",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "ELEVATED",
+    "top_epss": 0.1184,
+    "summary": "The overall threat posture escalates to HIGH today due to multiple critical supply-chain and infrastructure vulnerabilities exhibiting elevated exploit probabilities. Most critical among these is CVE-...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 3,
+    "news_count": 3,
+    "json_path": "data/2026/09/2026-09-04.json",
+    "md_path": "reports/2026/09/2026-09-04.md"
+  }
+]

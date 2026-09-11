@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-cinzel: "Cinzel", "Cormorant Garamond", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Oswald", "Syne", sans-serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  --color-stone-canvas: #ECEAE4;
+  --color-stone-card: #F5F3EF;
+  --color-stone-deep: #161518;
+  --color-stone-muted: #57534E;
+}
+
+/* Global typography & browser surface polish */
+html {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Tabular numerals for telemetry, dates, EPSS percentages, and star counts */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Tactile subtle film grain overlay */
+.bg-grain {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* 3D Physical Deep Drop Shadows */
+.shadow-3d-bust {
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.08),
+    0 20px 35px -5px rgba(0, 0, 0, 0.22),
+    0 40px 65px -12px rgba(0, 0, 0, 0.32);
+}
+
+.shadow-neon-wave {
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.95))
+          drop-shadow(0 0 14px rgba(255, 255, 255, 0.70))
+          drop-shadow(0 0 30px rgba(180, 220, 255, 0.45));
+}
+
+/* Uiverse-style card hover shimmer & glow */
+.card-hover-glow {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.card-hover-glow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -6px rgba(0, 0, 0, 0.12), 0 4px 10px -2px rgba(0, 0, 0, 0.06);
+}
+
+/* Shimmer badge animation */
+@keyframes shimmerSweep {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmerSweep 3s infinite linear;
+}
+
+/* Focus visible standard: unmistakable yet unobtrusive */
+:focus-visible {
+  outline: 2px solid #161518;
+  outline-offset: 2px;
+}
+
+/* Smooth custom scrollbars themed from palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(87, 83, 78, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(87, 83, 78, 0.6);
+}
