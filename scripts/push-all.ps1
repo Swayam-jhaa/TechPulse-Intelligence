@@ -40,10 +40,10 @@ try {
     if ($Remotes -contains "techpulse") {
         if (Test-Path "techpulse-intelligence") {
             Write-Host "Generating subtree split for techpulse-intelligence..." -ForegroundColor Gray
-            git branch -D techpulse-standalone 2>$null | Out-Null
+            if (git branch --list techpulse-standalone) { git branch -D techpulse-standalone | Out-Null }
             git subtree split --prefix=techpulse-intelligence -b techpulse-standalone
             git push -f techpulse techpulse-standalone:main
-            git branch -D techpulse-standalone 2>$null | Out-Null
+            if (git branch --list techpulse-standalone) { git branch -D techpulse-standalone | Out-Null }
         } else {
             git push techpulse main
         }
@@ -70,7 +70,6 @@ if ($env:VERCEL_TOKEN) {
     Write-Host "Deploying using VERCEL_TOKEN..." -ForegroundColor Yellow
     $WebDir = if (Test-Path "techpulse-intelligence/web") { "techpulse-intelligence/web" } else { "web" }
     npx vercel --cwd $WebDir --token $env:VERCEL_TOKEN --prod --yes
-    npx vercel alias set techpulse-intel.vercel.app --cwd $WebDir --token $env:VERCEL_TOKEN
     Write-Host "Vercel production deployment completed! Live at https://techpulse-intel.vercel.app" -ForegroundColor Green
 } else {
     Write-Host "VERCEL_TOKEN not detected in environment." -ForegroundColor Gray
