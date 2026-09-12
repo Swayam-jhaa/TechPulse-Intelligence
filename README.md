@@ -1,6 +1,13 @@
-﻿# TechPulse Intelligence ⚡🛡️
+# TechPulse Intelligence ⚡🛡️
 
 > **Autonomous Daily Cybersecurity & Tech Intelligence Platform with Natural GitHub Streaks**
+
+[![Live Production Dashboard](https://img.shields.io/badge/Live_Dashboard-techpulse--intel.vercel.app-00f0ff?style=flat-square&logo=vercel)](https://techpulse-intel.vercel.app)
+[![Daily Streak](https://img.shields.io/badge/Streak-Automated-brightgreen?style=flat-square&logo=github)](https://github.com/Swayam-jhaa/TechPulse-Intelligence/actions)
+[![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+
+🌐 **Live Web Application**: [https://techpulse-intel.vercel.app](https://techpulse-intel.vercel.app)
 
 TechPulse Intelligence aggregates, analyzes, and archives daily high-signal technology intelligence across four core pillars:
 - **🛡️ Cybersecurity**: Actively exploited CVEs & CISA KEV alerts
@@ -13,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-11 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-12 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Citrix NetScaler CVE-2026-19490 presents an urgent authentication bypass risk with an EPSS exploit probability score in the 92.89th percentile.
-- Shopify announced an architectural shift from React Native back to native Swift and Kotlin for mobile development.
-- DeepSeek-V4.1-Flash open-weights multimodal model debuted with over 1,600 community upvotes.
+- Unauthenticated path traversal vulnerability discovered in GitLab CE/EE (CVE-2026-85706) permitting arbitrary repository file reads.
+- Dual security advisories issued for JFrog Artifactory addressing token scope validation bypasses and anonymous token exposure.
+- ConnectWise ScreenConnect patched against missing authorization flaws that enable remote session file transfer and execution.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-11)](reports/2026/09/2026-09-11.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-12)](reports/2026/09/2026-09-12.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

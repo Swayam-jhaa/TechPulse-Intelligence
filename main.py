@@ -94,7 +94,8 @@ def run_pipeline(
                 auto_push=auto_push,
                 dry_run=dry_run
             )
-        console.print(f"    [green][OK][/green] Git Manager: {streak_res.get('status')} - '{streak_res.get('commit_message')}'")
+        msgs = ", ".join(streak_res.get('commit_messages', [])) or streak_res.get('status', 'complete')
+        console.print(f"    [green][OK][/green] Git Manager: {streak_res.get('status')} - '{msgs}'")
     else:
         console.print("    [dim][i] Dry-run: skipped git commit and push.[/dim]")
 

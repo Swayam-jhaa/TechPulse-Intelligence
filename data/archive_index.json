@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-12",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0069,
+    "summary": "The enterprise cybersecurity posture remains at a HIGH threat level day-over-day, driven by a cluster of high-severity vulnerabilities across infrastructure and DevOps tools. Critical findings include...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 3,
+    "news_count": 3,
+    "json_path": "data/2026/09/2026-09-12.json",
+    "md_path": "reports/2026/09/2026-09-12.md"
+  },
+  {
     "date": "2026-09-11",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",

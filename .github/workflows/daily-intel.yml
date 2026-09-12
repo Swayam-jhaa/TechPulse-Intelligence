@@ -24,11 +24,12 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
 
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r techpulse-intelligence/requirements.txt
+          pip install -r requirements.txt
 
       - name: Apply Random Organic Jitter
         if: github.event_name == 'schedule'
@@ -38,8 +39,7 @@ jobs:
           echo "Engaging organic jitter delay: $DELAY seconds..."
           sleep $DELAY
 
-      - name: Run TechPulse Intelligence Pipeline
-        working-directory: techpulse-intelligence
+      - name: Run TechPulse Intelligence Pipeline & Streak Commit
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.6-flash
@@ -50,3 +50,11 @@ jobs:
           git config --global user.name "${{ secrets.GIT_USER_NAME || 'swayam jha' }}"
           git config --global user.email "${{ secrets.GIT_USER_EMAIL || 'swayamjhaoffical@gmail.com' }}"
           python main.py run --auto-commit --auto-push
+
+      - name: Deploy Updated Dashboard to Vercel
+        if: env.VERCEL_TOKEN != ''
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          npx vercel --cwd web --token $VERCEL_TOKEN --prod --yes
+          npx vercel alias set techpulse-intel.vercel.app --cwd web --token $VERCEL_TOKEN
