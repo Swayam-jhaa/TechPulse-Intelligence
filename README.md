@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-12 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-13 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Unauthenticated path traversal vulnerability discovered in GitLab CE/EE (CVE-2026-85706) permitting arbitrary repository file reads.
-- Dual security advisories issued for JFrog Artifactory addressing token scope validation bypasses and anonymous token exposure.
-- ConnectWise ScreenConnect patched against missing authorization flaws that enable remote session file transfer and execution.
+- Critical high-severity vulnerabilities persist in enterprise infrastructure; prioritize patching GitLab (CVE-2026-85706) and JFrog Artifactory (CVE-2026-42016, CVE-2026-42018).
+- New AI model releases, including DeepSeek-V4.1-Flash and MiniCPM5-2B, demonstrate rapid advancements in multimodal and lightweight reasoning capabilities.
+- Research into 'L2 reasoning' and 'Adaptive Bridge' for ROS 2 highlights a shift toward improving cross-language model performance and system reliability in safety-critical robotics.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-12)](reports/2026/09/2026-09-12.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-13)](reports/2026/09/2026-09-13.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

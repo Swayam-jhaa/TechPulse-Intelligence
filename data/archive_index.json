@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-13",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0115,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, characterized by persistent vulnerabilities in critical infrastructure and development tooling. Organizations must prioritize remediation fo...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 2,
+    "news_count": 2,
+    "json_path": "data/2026/09/2026-09-13.json",
+    "md_path": "reports/2026/09/2026-09-13.md"
+  },
+  {
     "date": "2026-09-12",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
