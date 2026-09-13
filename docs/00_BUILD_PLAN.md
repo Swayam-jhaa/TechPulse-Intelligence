@@ -1,4 +1,4 @@
-﻿# Master Phased Build Plan: TechPulse Intelligence
+# Master Phased Build Plan: TechPulse Intelligence
 
 ## Overview
 This build plan defines the sequential, decoupled phases to build the **TechPulse Intelligence** platform. Per the *AI Collaboration Field Guide*, each phase has strict definitions of done, verifiable test commands, and isolated scope. No phase begins until the prior phase passes its verification criteria.
@@ -109,7 +109,7 @@ This build plan defines the sequential, decoupled phases to build the **TechPuls
 
 ### Criteria of Done:
 - `python main.py run --dry-run` successfully creates `data/` and `reports/` files for today.
-- Local `git log` reflects author `swayam jha <swayamjhaoffical@gmail.com>`.
+- Local `git log` reflects author `Swayam Jha <swayamjhaofficial@gmail.com>`.
 - Workflow file syntax validated against GitHub Actions schema.
 
 ---

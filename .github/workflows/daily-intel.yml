@@ -34,8 +34,8 @@ jobs:
       - name: Apply Random Organic Jitter
         if: github.event_name == 'schedule'
         run: |
-          # Sleep randomly between 5 and 45 minutes for humanized streak timing
-          DELAY=$(( (RANDOM % 2400) + 300 ))
+          # Sleep randomly between 1 and 5 minutes for humanized streak timing
+          DELAY=$(( (RANDOM % 240) + 60 ))
           echo "Engaging organic jitter delay: $DELAY seconds..."
           sleep $DELAY
 
@@ -43,12 +43,12 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.6-flash
-          GIT_USER_NAME: ${{ secrets.GIT_USER_NAME || 'swayam jha' }}
-          GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL || 'swayamjhaoffical@gmail.com' }}
+          GIT_USER_NAME: ${{ secrets.GIT_USER_NAME || 'Swayam Jha' }}
+          GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL || 'swayamjhaofficial@gmail.com' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name "${{ secrets.GIT_USER_NAME || 'swayam jha' }}"
-          git config --global user.email "${{ secrets.GIT_USER_EMAIL || 'swayamjhaoffical@gmail.com' }}"
+          git config --global user.name "${{ secrets.GIT_USER_NAME || 'Swayam Jha' }}"
+          git config --global user.email "${{ secrets.GIT_USER_EMAIL || 'swayamjhaofficial@gmail.com' }}"
           python main.py run --auto-commit --auto-push
 
       - name: Deploy Updated Dashboard to Vercel

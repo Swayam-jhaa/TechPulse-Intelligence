@@ -11,9 +11,9 @@ DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # GitHub Profile configuration
-GIT_USER_NAME = os.getenv("GIT_USER_NAME", "swayam jha")
-GIT_USER_EMAIL = os.getenv("GIT_USER_EMAIL", "swayamjhaoffical@gmail.com")
-GITHUB_REPO = os.getenv("GITHUB_REPO", "Swayam-jhaa/daily-tech-pulse")
+GIT_USER_NAME = os.getenv("GIT_USER_NAME", "Swayam Jha")
+GIT_USER_EMAIL = os.getenv("GIT_USER_EMAIL", "swayamjhaofficial@gmail.com")
+GITHUB_REPO = os.getenv("GITHUB_REPO", "Swayam-jhaa/TechPulse-Intelligence")
 
 # API & Feed endpoints
 CISA_KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
@@ -28,8 +28,8 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
 # Streak & Randomness bounds (in minutes)
-MIN_JITTER_MINUTES = int(os.getenv("MIN_JITTER_MINUTES", "15"))
-MAX_JITTER_MINUTES = int(os.getenv("MAX_JITTER_MINUTES", "120"))
+MIN_JITTER_MINUTES = int(os.getenv("MIN_JITTER_MINUTES", "1"))
+MAX_JITTER_MINUTES = int(os.getenv("MAX_JITTER_MINUTES", "5"))
 
 # Request settings
 DEFAULT_TIMEOUT = float(os.getenv("DEFAULT_TIMEOUT", "10.0"))
