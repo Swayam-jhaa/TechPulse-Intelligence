@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-14",
+    "threat_level": "ELEVATED",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0116,
+    "summary": "The overall threat landscape transitions from HIGH to ELEVATED today, reflecting a minor cooling shift in aggressive wild exploitation while essential enterprise tooling faces significant high-severit...",
+    "cves_count": 5,
+    "ai_count": 6,
+    "tools_count": 5,
+    "news_count": 4,
+    "json_path": "data/2026/09/2026-09-14.json",
+    "md_path": "reports/2026/09/2026-09-14.md"
+  },
+  {
     "date": "2026-09-13",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
