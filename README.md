@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-14 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-15 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: ELEVATED | **Active CVEs**: 5 | **AI Breakthroughs**: 6
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- [NEW TODAY] OpenAI open-sources NavierStokesAndEuler, releasing formal Lean verification certificates alongside fluid mechanics mathematical results.
-- Enterprise security climate moves to ELEVATED, with high-severity vulnerabilities impacting GitLab (CVE-2026-85706), JFrog Artifactory (CVE-2026-42016/42018), and ConnectWise ScreenConnect demanding strict adherence to CISA BOD 26-04 guidance.
-- [NEW TODAY] Cyber Mercury Seven publishes Feyospace-v1, presenting a five-system data-centric framework to train advanced cybersecurity agent models.
+- Threat climate elevated to HIGH due to unauthenticated root command execution risks in Cisco Secure Email Gateway (CVE-2026-76461) and active GitLab exposure (CVE-2026-85706).
+- New today: CVE-2026-76461 allows remote unauthenticated root command execution on Cisco Secure Email Gateway via SQL injection.
+- DeepSeek-V4.1-Flash open-weights release leads AI model deployments with high-efficiency multimodal inference.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-14)](reports/2026/09/2026-09-14.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-15)](reports/2026/09/2026-09-15.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

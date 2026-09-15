@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-15",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "ELEVATED",
+    "top_epss": 0.1111,
+    "summary": "The global threat landscape escalated from ELEVATED to HIGH following critical vulnerability disclosures across enterprise communications and repository systems. Most notable is CVE-2026-76461, a newl...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/09/2026-09-15.json",
+    "md_path": "reports/2026/09/2026-09-15.md"
+  },
+  {
     "date": "2026-09-14",
     "threat_level": "ELEVATED",
     "yesterday_threat_level": "HIGH",
