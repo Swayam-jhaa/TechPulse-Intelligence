@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-15 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-16 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Threat climate elevated to HIGH due to unauthenticated root command execution risks in Cisco Secure Email Gateway (CVE-2026-76461) and active GitLab exposure (CVE-2026-85706).
-- New today: CVE-2026-76461 allows remote unauthenticated root command execution on Cisco Secure Email Gateway via SQL injection.
-- DeepSeek-V4.1-Flash open-weights release leads AI model deployments with high-efficiency multimodal inference.
+- GitLab path traversal (CVE-2026-85706) presents an elevated risk profile with a 11.96% EPSS probability, enabling unauthenticated arbitrary file exposure.
+- Qwen/Qwen3.8-27B and DeepSeek-V4.1-Flash lead today's open-weights model landscape, demonstrating rapid community adoption across vision-language workloads.
+- Decoy Direction Optimization (DDO) emerges today as an efficient post-hoc defense mechanism against safety abliteration attacks in open-weight models.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-15)](reports/2026/09/2026-09-15.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-16)](reports/2026/09/2026-09-16.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

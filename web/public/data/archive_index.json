@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-16",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.1196,
+    "summary": "The cyber threat landscape remains at a HIGH posture day-over-day, highlighted by significant remote code execution and unauthorized access vectors across enterprise infrastructure. Leading the risk i...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/09/2026-09-16.json",
+    "md_path": "reports/2026/09/2026-09-16.md"
+  },
+  {
     "date": "2026-09-15",
     "threat_level": "HIGH",
     "yesterday_threat_level": "ELEVATED",
