@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-16 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-17 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 5
 
 ### Highlights
-- GitLab path traversal (CVE-2026-85706) presents an elevated risk profile with a 11.96% EPSS probability, enabling unauthenticated arbitrary file exposure.
-- Qwen/Qwen3.8-27B and DeepSeek-V4.1-Flash lead today's open-weights model landscape, demonstrating rapid community adoption across vision-language workloads.
-- Decoy Direction Optimization (DDO) emerges today as an efficient post-hoc defense mechanism against safety abliteration attacks in open-weight models.
+- High-severity advisories emerge today for Cisco ISE (CVE-2026-76460) and Acronis Backup (CVE-2026-87886), requiring urgent mitigation per CISA BOD 26-04 guidance.
+- Cisco Secure Email Gateway (CVE-2026-76461) maintains a heightened threat profile with an EPSS score of 0.02009 (79.86th percentile) due to root-level SQL injection RCE risks.
+- Nvidia introduced native GPU kernel development in Rust (CUDA Rust), opening two dedicated tracks to modernize high-performance system programming.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-16)](reports/2026/09/2026-09-16.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-17)](reports/2026/09/2026-09-17.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
