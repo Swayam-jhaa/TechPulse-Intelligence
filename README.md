@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-17 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-18 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 5
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 3
 
 ### Highlights
-- High-severity advisories emerge today for Cisco ISE (CVE-2026-76460) and Acronis Backup (CVE-2026-87886), requiring urgent mitigation per CISA BOD 26-04 guidance.
-- Cisco Secure Email Gateway (CVE-2026-76461) maintains a heightened threat profile with an EPSS score of 0.02009 (79.86th percentile) due to root-level SQL injection RCE risks.
-- Nvidia introduced native GPU kernel development in Rust (CUDA Rust), opening two dedicated tracks to modernize high-performance system programming.
+- Critical remote code execution risk identified in Cisco Secure Email Gateway (CVE-2026-76461) with an EPSS score of 0.02009.
+- ConnectWise ScreenConnect remains a high-value target for unauthorized remote session manipulation; immediate patching is required.
+- New AI research into 'length inflation' and EOS token mismatch highlights critical reliability issues in on-policy distillation workflows.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-17)](reports/2026/09/2026-09-17.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-18)](reports/2026/09/2026-09-18.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
