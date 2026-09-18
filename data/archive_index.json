@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-18",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0201,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, characterized by persistent exploitation of high-privilege vulnerabilities in enterprise and infrastructure software. Critical attention is ...",
+    "cves_count": 5,
+    "ai_count": 3,
+    "tools_count": 2,
+    "news_count": 2,
+    "json_path": "data/2026/09/2026-09-18.json",
+    "md_path": "reports/2026/09/2026-09-18.md"
+  },
+  {
     "date": "2026-09-17",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
