@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-18 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-19 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 3
+> **Threat Assessment**: HIGH | **Active CVEs**: 3 | **AI Breakthroughs**: 2
 
 ### Highlights
-- Critical remote code execution risk identified in Cisco Secure Email Gateway (CVE-2026-76461) with an EPSS score of 0.02009.
-- ConnectWise ScreenConnect remains a high-value target for unauthorized remote session manipulation; immediate patching is required.
-- New AI research into 'length inflation' and EOS token mismatch highlights critical reliability issues in on-policy distillation workflows.
+- Three high-severity Linux Kernel vulnerabilities identified, impacting socket handling, ebtables, and TLS receive paths.
+- Continued focus on CISA BOD 26-04 compliance for all critical infrastructure, specifically targeting EoL/EoS product transitions.
+- Significant AI model releases including Qwen3.8-27B and DeepSeek-V4.1-Flash demonstrate rapid advancements in multimodal reasoning and efficiency.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-18)](reports/2026/09/2026-09-18.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-19)](reports/2026/09/2026-09-19.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

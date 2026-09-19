@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-19",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.005,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, driven by a cluster of critical vulnerabilities affecting the Linux Kernel and enterprise infrastructure. Three newly identified Linux Kerne...",
+    "cves_count": 3,
+    "ai_count": 2,
+    "tools_count": 2,
+    "news_count": 2,
+    "json_path": "data/2026/09/2026-09-19.json",
+    "md_path": "reports/2026/09/2026-09-19.md"
+  },
+  {
     "date": "2026-09-18",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
