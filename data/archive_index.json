@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-21",
+    "threat_level": "ELEVATED",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.012,
+    "summary": "The global cybersecurity posture has transitioned from HIGH to ELEVATED today as no active zero-day exploitation was observed in raw telemetry, though multiple high-severity vulnerabilities demand imm...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/09/2026-09-21.json",
+    "md_path": "reports/2026/09/2026-09-21.md"
+  },
+  {
     "date": "2026-09-20",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
