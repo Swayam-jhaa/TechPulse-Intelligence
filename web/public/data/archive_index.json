@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-22",
+    "threat_level": "ELEVATED",
+    "yesterday_threat_level": "ELEVATED",
+    "top_epss": 0.0079,
+    "summary": "The cybersecurity landscape remains at an elevated threat level, primarily driven by persistent vulnerabilities in core infrastructure components. A new high-severity stack-based buffer overflow in Zy...",
+    "cves_count": 2,
+    "ai_count": 2,
+    "tools_count": 1,
+    "news_count": 2,
+    "json_path": "data/2026/09/2026-09-22.json",
+    "md_path": "reports/2026/09/2026-09-22.md"
+  },
+  {
     "date": "2026-09-21",
     "threat_level": "ELEVATED",
     "yesterday_threat_level": "HIGH",
