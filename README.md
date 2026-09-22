@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-21 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-22 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: ELEVATED | **Active CVEs**: 5 | **AI Breakthroughs**: 4
+> **Threat Assessment**: ELEVATED | **Active CVEs**: 2 | **AI Breakthroughs**: 2
 
 ### Highlights
-- Threat level cools from HIGH to ELEVATED due to lack of active wild exploitation, though high-severity vulnerabilities in Cisco ISE, Linux Kernel, and Google Pixel demand rapid remediation.
-- [NEW TODAY] Qwen-Image-2.1 model release and news signal next-generation text-to-image capabilities from Alibaba.
-- [NEW TODAY] Google open-sources AX (Agentic Orchestrator) while Z.ai introduces ZCode agent harness, accelerating enterprise autonomous workflows.
+- New high-severity RCE vulnerability identified in Zyxel GS1900 series switches (CVE-2026-7273).
+- Continued focus on Linux kernel hardening required due to multiple high-severity memory and race condition flaws.
+- Emergence of 'Laya' ecosystem, including native MLX runtimes, signals a shift toward high-performance, local decision-making models.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-21)](reports/2026/09/2026-09-21.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-22)](reports/2026/09/2026-09-22.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
