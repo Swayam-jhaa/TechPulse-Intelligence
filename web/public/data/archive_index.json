@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-23",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "ELEVATED",
+    "top_epss": 0.0199,
+    "summary": "The cybersecurity landscape has shifted to a HIGH threat level today, driven by a surge in critical vulnerabilities affecting enterprise infrastructure. Multiple high-severity flaws in Arista VeloClou...",
+    "cves_count": 5,
+    "ai_count": 2,
+    "tools_count": 2,
+    "news_count": 2,
+    "json_path": "data/2026/09/2026-09-23.json",
+    "md_path": "reports/2026/09/2026-09-23.md"
+  },
+  {
     "date": "2026-09-22",
     "threat_level": "ELEVATED",
     "yesterday_threat_level": "ELEVATED",

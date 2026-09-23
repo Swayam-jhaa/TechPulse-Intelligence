@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-22 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-23 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: ELEVATED | **Active CVEs**: 2 | **AI Breakthroughs**: 2
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 2
 
 ### Highlights
-- New high-severity RCE vulnerability identified in Zyxel GS1900 series switches (CVE-2026-7273).
-- Continued focus on Linux kernel hardening required due to multiple high-severity memory and race condition flaws.
-- Emergence of 'Laya' ecosystem, including native MLX runtimes, signals a shift toward high-performance, local decision-making models.
+- Immediate remediation required for F5 BIG-IP APM and Check Point products due to critical RCE and path traversal vulnerabilities.
+- The threat level has escalated from ELEVATED to HIGH due to the breadth of enterprise-grade infrastructure vulnerabilities disclosed today.
+- AI research is shifting toward 'System 1' decision engines like Laya, which prioritize speed and efficiency over traditional generative text models.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-22)](reports/2026/09/2026-09-22.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-23)](reports/2026/09/2026-09-23.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
