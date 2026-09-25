@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-09-24 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-09-25 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 2
 
 ### Highlights
-- Critical RCE vulnerabilities in F5 BIG-IP and Check Point products require immediate patching to mitigate high-probability exploitation risks.
-- The Laya decision engine ecosystem is gaining significant traction, with new native MLX runtimes enabling sub-15ms inference on local hardware.
-- New research in encoder pruning for Whisper models offers a path to significantly faster ASR performance without sacrificing accuracy.
+- Critical path traversal vulnerabilities in WSO2 and Adobe Commerce require immediate patching to prevent RCE and unauthorized data access.
+- The release of Qwen-Image-2.1 and its uncensored GGUF variant marks a significant shift in accessible, high-performance text-to-image capabilities.
+- Developer tooling is trending toward local, high-efficiency decision models, as evidenced by the rapid adoption of Laya-coreml and ZCode.
 
-👉 **[Read Full Daily Intelligence Report (2026-09-24)](reports/2026/09/2026-09-24.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-09-25)](reports/2026/09/2026-09-25.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

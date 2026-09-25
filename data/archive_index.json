@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-25",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0242,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, characterized by critical path traversal and authorization vulnerabilities in enterprise-grade infrastructure. New disclosures affecting WSO...",
+    "cves_count": 5,
+    "ai_count": 2,
+    "tools_count": 2,
+    "news_count": 1,
+    "json_path": "data/2026/09/2026-09-25.json",
+    "md_path": "reports/2026/09/2026-09-25.md"
+  },
+  {
     "date": "2026-09-24",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
