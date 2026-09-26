@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-26",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.8962,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, characterized by critical vulnerabilities in widely deployed infrastructure and content management systems. Notably, WordPress Core (CVE-202...",
+    "cves_count": 5,
+    "ai_count": 2,
+    "tools_count": 2,
+    "news_count": 2,
+    "json_path": "data/2026/09/2026-09-26.json",
+    "md_path": "reports/2026/09/2026-09-26.md"
+  },
+  {
     "date": "2026-09-25",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
