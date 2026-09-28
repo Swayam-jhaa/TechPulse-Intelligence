@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-28",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.1817,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, driven by the emergence of critical vulnerabilities in Citrix NetScaler (CVE-2026-88771, CVE-2026-88772) that facilitate remote code executi...",
+    "cves_count": 5,
+    "ai_count": 2,
+    "tools_count": 2,
+    "news_count": 2,
+    "json_path": "data/2026/09/2026-09-28.json",
+    "md_path": "reports/2026/09/2026-09-28.md"
+  },
+  {
     "date": "2026-09-27",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
