@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-02",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.013,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, characterized by persistent exploitation of edge infrastructure. A new critical path traversal vulnerability in Fortinet FortiMail (CVE-2026...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 2,
+    "news_count": 2,
+    "json_path": "data/2026/10/2026-10-02.json",
+    "md_path": "reports/2026/10/2026-10-02.md"
+  },
+  {
     "date": "2026-10-01",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
