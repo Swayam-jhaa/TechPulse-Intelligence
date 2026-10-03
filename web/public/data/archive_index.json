@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-03",
+    "threat_level": "CRITICAL",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0178,
+    "summary": "The cybersecurity threat landscape has escalated to CRITICAL today due to active exploitation of a vulnerability chain in Zammad. CVE-2026-102489 and CVE-2026-102490 allow unauthenticated remote code ...",
+    "cves_count": 5,
+    "ai_count": 3,
+    "tools_count": 3,
+    "news_count": 2,
+    "json_path": "data/2026/10/2026-10-03.json",
+    "md_path": "reports/2026/10/2026-10-03.md"
+  },
+  {
     "date": "2026-10-02",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
