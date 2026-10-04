@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-04",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "CRITICAL",
+    "top_epss": 0.022,
+    "summary": "The global cybersecurity threat landscape has shifted from CRITICAL to HIGH today, though significant enterprise exposure persists across critical perimeter and communication systems. Key security dis...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 3,
+    "json_path": "data/2026/10/2026-10-04.json",
+    "md_path": "reports/2026/10/2026-10-04.md"
+  },
+  {
     "date": "2026-10-03",
     "threat_level": "CRITICAL",
     "yesterday_threat_level": "HIGH",
