@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-05",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.022,
+    "summary": "The cyber threat climate remains elevated at HIGH today, marked by significant risk across enterprise perimeter and edge software. Active exploitation risks persist around chained vulnerabilities, not...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 3,
+    "json_path": "data/2026/10/2026-10-05.json",
+    "md_path": "reports/2026/10/2026-10-05.md"
+  },
+  {
     "date": "2026-10-04",
     "threat_level": "HIGH",
     "yesterday_threat_level": "CRITICAL",
