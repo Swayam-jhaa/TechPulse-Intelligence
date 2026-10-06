@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-06",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.022,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, characterized by active exploitation of privilege escalation and session fixation vulnerabilities in Zammad (CVE-2026-102490, CVE-2026-10248...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 3,
+    "news_count": 3,
+    "json_path": "data/2026/10/2026-10-06.json",
+    "md_path": "reports/2026/10/2026-10-06.md"
+  },
+  {
     "date": "2026-10-05",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
