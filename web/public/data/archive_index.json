@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-08",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.022,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, characterized by active exploitation of critical vulnerabilities in enterprise infrastructure. Notably, the Zammad helpdesk platform is curr...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 3,
+    "news_count": 3,
+    "json_path": "data/2026/10/2026-10-08.json",
+    "md_path": "reports/2026/10/2026-10-08.md"
+  },
+  {
     "date": "2026-10-07",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
