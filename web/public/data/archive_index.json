@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-10",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.9803,
+    "summary": "The daily cyber threat climate remains sustained at HIGH today due to continued active exploitation risks surrounding high-probability legacy vulnerabilities. Quantitative exploit prediction (EPSS) me...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 3,
+    "json_path": "data/2026/10/2026-10-10.json",
+    "md_path": "reports/2026/10/2026-10-10.md"
+  },
+  {
     "date": "2026-10-09",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
