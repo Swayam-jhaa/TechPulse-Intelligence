@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-13",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.995,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, characterized by the persistent exploitation of legacy vulnerabilities and a novel, disruptive attack on critical infrastructure. The incide...",
+    "cves_count": 5,
+    "ai_count": 2,
+    "tools_count": 2,
+    "news_count": 2,
+    "json_path": "data/2026/10/2026-10-13.json",
+    "md_path": "reports/2026/10/2026-10-13.md"
+  },
+  {
     "date": "2026-10-12",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
