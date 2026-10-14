@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-13 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-10-14 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 2
+> **Threat Assessment**: HIGH | **Active CVEs**: 3 | **AI Breakthroughs**: 2
 
 ### Highlights
-- Critical infrastructure remains vulnerable: A large-scale cyberattack on European refrigeration systems demonstrates the real-world impact of insecure IoT/OT connectivity.
-- Legacy vulnerability persistence: CVE-2015-5477 (BIND) and CVE-2015-3306 (ProFTPD) maintain critical EPSS scores, necessitating immediate patching or isolation.
-- Rust-based ecosystem growth: The 'ArtCraft' suite of Rust-based reimplementations (Word, Excel, AutoCAD) is gaining significant developer traction, signaling a move toward memory-safe alternatives.
+- Immediate patching required for Ivanti Connect Secure (CVE-2026-104935) and Windows Shell (CVE-2026-96951) to mitigate RCE risks.
+- Legacy vulnerabilities in BIND and Apache Struts remain high-risk vectors with near-certain exploit probability; ensure these are not present in your environment.
+- The emergence of 'ARTEX' as a trending AI-driven penetration testing tool signals a shift toward autonomous offensive security capabilities.
 
-👉 **[Read Full Daily Intelligence Report (2026-10-13)](reports/2026/10/2026-10-13.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-10-14)](reports/2026/10/2026-10-14.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

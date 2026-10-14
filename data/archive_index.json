@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-14",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.9941,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, driven by critical vulnerabilities in enterprise infrastructure and operating systems. New disclosures include an authentication bypass in I...",
+    "cves_count": 3,
+    "ai_count": 2,
+    "tools_count": 2,
+    "news_count": 2,
+    "json_path": "data/2026/10/2026-10-14.json",
+    "md_path": "reports/2026/10/2026-10-14.md"
+  },
+  {
     "date": "2026-10-13",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
