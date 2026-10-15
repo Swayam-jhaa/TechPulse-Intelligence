@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-14 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-10-15 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 3 | **AI Breakthroughs**: 2
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 2
 
 ### Highlights
-- Immediate patching required for Ivanti Connect Secure (CVE-2026-104935) and Windows Shell (CVE-2026-96951) to mitigate RCE risks.
-- Legacy vulnerabilities in BIND and Apache Struts remain high-risk vectors with near-certain exploit probability; ensure these are not present in your environment.
-- The emergence of 'ARTEX' as a trending AI-driven penetration testing tool signals a shift toward autonomous offensive security capabilities.
+- Immediate patching required for AhsayCBS (CVE-2026-105133/105134) to prevent chained remote command execution.
+- Palo Alto Networks PAN-OS code injection vulnerability (CVE-2026-0322) poses a critical risk for root-level compromise.
+- Ivanti Connect Secure (CVE-2026-104935) remains a high-priority threat with an EPSS score of 0.25982, indicating high probability of active exploitation.
 
-👉 **[Read Full Daily Intelligence Report (2026-10-14)](reports/2026/10/2026-10-14.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-10-15)](reports/2026/10/2026-10-15.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
