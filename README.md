@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-17 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-10-18 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 3 | **AI Breakthroughs**: 3
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 3
 
 ### Highlights
-- Immediate remediation required for BeyondTrust Remote Support (CVE-2026-102764) and Fortinet products (CVE-2025-61624) to mitigate authentication and file system risks.
-- Atlassian products remain a high-risk vector with an EPSS score of 0.12711, placing it in the 96th percentile of exploitability.
-- AI research is shifting toward 'test-time diversity' and 'weak-to-strong' agent oversight, signaling a move toward more reliable, autonomous computer-use agents.
+- New critical command injection and path traversal vulnerabilities identified in AhsayCBS and Cisco Secure Email Gateway.
+- Atlassian products remain a primary target with an EPSS score of 0.12711, placing it in the 96th percentile of exploit risk.
+- DeepSeek-V4.1-Flash-1017 and Google's embeddinggemma-2 represent significant advancements in multimodal and embedding efficiency.
 
-👉 **[Read Full Daily Intelligence Report (2026-10-17)](reports/2026/10/2026-10-17.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-10-18)](reports/2026/10/2026-10-18.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

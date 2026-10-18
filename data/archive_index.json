@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-18",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.1271,
+    "summary": "The cybersecurity landscape remains at a HIGH threat level, driven by persistent exploitation risks across enterprise infrastructure. Critical vulnerabilities in AhsayCBS (CVE-2026-105134) and Cisco S...",
+    "cves_count": 5,
+    "ai_count": 3,
+    "tools_count": 2,
+    "news_count": 1,
+    "json_path": "data/2026/10/2026-10-18.json",
+    "md_path": "reports/2026/10/2026-10-18.md"
+  },
+  {
     "date": "2026-10-17",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
