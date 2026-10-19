@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-19",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0478,
+    "summary": "The cyber threat climate remains elevated at HIGH today, maintaining parity with yesterday's threat level due to enterprise-grade vulnerabilities impacting key access management, email gateway, and co...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 5,
+    "news_count": 3,
+    "json_path": "data/2026/10/2026-10-19.json",
+    "md_path": "reports/2026/10/2026-10-19.md"
+  },
+  {
     "date": "2026-10-18",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
