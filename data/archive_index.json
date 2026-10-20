@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-20",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0478,
+    "summary": "The global cyber threat environment remains at HIGH posture day-over-day, anchored by significant critical vulnerabilities across remote access infrastructure, enterprise collaboration suites, and net...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 3,
+    "json_path": "data/2026/10/2026-10-20.json",
+    "md_path": "reports/2026/10/2026-10-20.md"
+  },
+  {
     "date": "2026-10-19",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
