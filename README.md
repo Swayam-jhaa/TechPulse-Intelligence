@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-20 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-10-21 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 2
 
 ### Highlights
-- AhsayCBS command injection vulnerability (CVE-2026-105134) presents the highest current risk score with a 4.78% EPSS score (91st percentile).
-- Google released EmbeddingGemma-2 for feature extraction alongside DeepSeek-V4.1-Flash-1017, driving major open-weights community engagement today.
-- New research in multimodal AI safety proves that text-based refusal steering vectors can generalize to safeguard vision and video modalities.
+- Immediate patching required for Plex Media Server to address a critical chain of SSRF and RCE vulnerabilities (is_new_today: true).
+- Audit certificate trust stores following the reported eMudhra intermediate CA compromise (is_new_today: true).
+- New research in LLM agent memory (FlowState) and unsupervised tool evolution (TEAL) signals a shift toward more autonomous, long-horizon AI agents (is_new_today: true).
 
-👉 **[Read Full Daily Intelligence Report (2026-10-20)](reports/2026/10/2026-10-20.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-10-21)](reports/2026/10/2026-10-21.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
