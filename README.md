@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-21 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-10-22 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 2
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 8
 
 ### Highlights
-- Immediate patching required for Plex Media Server to address a critical chain of SSRF and RCE vulnerabilities (is_new_today: true).
-- Audit certificate trust stores following the reported eMudhra intermediate CA compromise (is_new_today: true).
-- New research in LLM agent memory (FlowState) and unsupervised tool evolution (TEAL) signals a shift toward more autonomous, long-horizon AI agents (is_new_today: true).
+- Security Alert: CVE-2026-106931 (EG Secure Solutions SiteGuard Server Edition) is under active wild exploitation [EPSS Exploit Prob: 1.4%]—remediation required.
+- AI Breakthrough: 🔥 'SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?' highlights today's community interest with 50 engagements.
+- Developer Arsenal: 🔥 Repository Gathin23/cleanyourtv surged to 21,410 stars in the Java ecosystem.
 
-👉 **[Read Full Daily Intelligence Report (2026-10-21)](reports/2026/10/2026-10-21.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-10-22)](reports/2026/10/2026-10-22.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

@@ -1,141 +1,246 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "threat_level": "HIGH",
   "yesterday_threat_level": "HIGH",
-  "executive_summary": "The cybersecurity landscape remains at a HIGH threat level today, driven by a significant cluster of chained vulnerabilities affecting Plex Media Server and a critical OS command injection flaw in EG Secure Solutions' SiteGuard. The Plex vulnerabilities (CVE-2026-96652, 96654, 96655, 96656) allow for a sophisticated attack chain involving SSRF and arbitrary file execution, necessitating immediate patching. Furthermore, the reported compromise of an eMudhra intermediate CA poses a significant risk to trust chains, requiring organizations to audit their certificate stores and trust anchors immediately. Organizations must prioritize these updates in alignment with CISA BOD 26-04 to mitigate the risk of unauthorized remote code execution.\n\nAI research continues to pivot toward agentic autonomy and specialized task execution. The release of 'FlowState' and 'TEAL' highlights a shift toward persistent memory and unsupervised tool evolution for LLM agents, moving beyond simple chat interfaces toward long-horizon task completion. Simultaneously, high-performance model releases like DeepSeek-V4.1-Flash and the multimodal Muse-Spark-Open-816B demonstrate continued rapid scaling in both inference speed and architectural complexity, providing developers with more robust building blocks for complex agentic workflows.\n\nDeveloper tooling is seeing a surge in projects focused on agentic capabilities and hardware-level control. The emergence of 'DeepInfer' for high-performance model serving and 'earshot' for audio-enabled coding agents signals a maturing ecosystem for AI-driven development. Additionally, the trend toward debloating and customizing consumer hardware, as seen in the popularity of 'free-my-tv', reflects a broader developer interest in reclaiming control over proprietary software environments, often leveraging AI-assisted coding tools to accelerate these efforts.",
+  "executive_summary": "The cybersecurity landscape for 2026-10-22 is evaluated at threat level HIGH. Security authorities recorded 5 actively exploited vulnerabilities cataloged in CISA KEV. Threat conditions hold steady at HIGH day-over-day. Primary exposure impacts infrastructure from EG Secure Solutions, Plex. Immediate patching is advised.\n\nIn artificial intelligence, researchers and engineers cataloged 4 breakthrough research papers and 4 trending open-weights models. Innovation centers on post-hoc calibration, specification-driven training, and specialized open inference weights demonstrating rapid optimization across autonomous workflows.\n\nAcross the open-source engineering ecosystem, 5 high-velocity developer tools gained significant star traction, while top architectural discussions on Hacker News highlighted infrastructure evolutions and ecosystem shifts. Engineering teams are prioritizing high-throughput inference runtimes, agentic developer tooling, and resilient operational pipelines.",
   "key_takeaways": [
-    "Immediate patching required for Plex Media Server to address a critical chain of SSRF and RCE vulnerabilities (is_new_today: true).",
-    "Audit certificate trust stores following the reported eMudhra intermediate CA compromise (is_new_today: true).",
-    "New research in LLM agent memory (FlowState) and unsupervised tool evolution (TEAL) signals a shift toward more autonomous, long-horizon AI agents (is_new_today: true).",
-    "High-performance inference frameworks like DeepInfer are gaining significant traction, facilitating the deployment of large-scale models (is_new_today: true)."
+    "Security Alert: CVE-2026-106931 (EG Secure Solutions SiteGuard Server Edition) is under active wild exploitation [EPSS Exploit Prob: 1.4%]—remediation required.",
+    "AI Breakthrough: 🔥 'SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?' highlights today's community interest with 50 engagements.",
+    "Developer Arsenal: 🔥 Repository Gathin23/cleanyourtv surged to 21,410 stars in the Java ecosystem.",
+    "Industry Discussion: 'Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case' sparked major developer dialogue with 543 engagement points."
   ],
   "cves": [
     {
       "id": "CVE-2026-106931",
       "vendor": "EG Secure Solutions",
       "product": "SiteGuard Server Edition",
-      "title": "OS Command Injection Vulnerability",
+      "title": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
       "severity": "HIGH",
-      "is_actively_exploited": false,
-      "epss_score": 0.00662,
-      "epss_percentile": 0.50774,
-      "is_new_today": true,
-      "description": "Allows an attacker to execute arbitrary OS commands with root or SYSTEM privileges.",
-      "remediation": "Apply vendor-supplied patches immediately and follow CISA BOD 26-04 guidance for risk-based prioritization.",
-      "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
+      "is_actively_exploited": true,
+      "epss_score": 0.01367,
+      "epss_percentile": 0.71599,
+      "is_new_today": false,
+      "description": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
+      "remediation": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "source_url": "https://www.eg-secure.co.jp/siteguard/news/alert-202610-1 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
     },
     {
       "id": "CVE-2026-96656",
       "vendor": "Plex",
       "product": "Media Server",
-      "title": "External Control of File Name or Path Vulnerability",
+      "title": "Plex Media Server External Control of File Name or Path Vulnerability",
       "severity": "HIGH",
-      "is_actively_exploited": false,
-      "epss_score": 0.00396,
-      "epss_percentile": 0.32349,
-      "is_new_today": true,
-      "description": "Allows admin users to write arbitrary files that may be executed on load; part of a multi-CVE chain.",
-      "remediation": "Update to the latest version of Plex Media Server as specified in the vendor advisory.",
-      "source_url": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319"
+      "is_actively_exploited": true,
+      "epss_score": 0.00758,
+      "epss_percentile": 0.54661,
+      "is_new_today": false,
+      "description": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655.",
+      "remediation": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "source_url": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
     },
     {
       "id": "CVE-2026-96655",
       "vendor": "Plex",
       "product": "Media Server",
-      "title": "Server-Side Request Forgery (SSRF) Vulnerability",
+      "title": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
       "severity": "HIGH",
-      "is_actively_exploited": false,
-      "epss_score": 0.00222,
-      "epss_percentile": 0.11974,
-      "is_new_today": true,
-      "description": "Allows authenticated users to request arbitrary internal or external addresses via transcode parameters.",
-      "remediation": "Update to the latest version of Plex Media Server.",
-      "source_url": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319"
+      "is_actively_exploited": true,
+      "epss_score": 0.00423,
+      "epss_percentile": 0.35486,
+      "is_new_today": false,
+      "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656.",
+      "remediation": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "source_url": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
     },
     {
       "id": "CVE-2026-96654",
       "vendor": "Plex",
       "product": "Media Server",
-      "title": "Improper Neutralization of Encoded URI Schemes",
+      "title": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
       "severity": "HIGH",
-      "is_actively_exploited": false,
-      "epss_score": 0.00227,
-      "epss_percentile": 0.12576,
-      "is_new_today": true,
-      "description": "Allows attackers to call other plugins' functions and supply arbitrary parameters.",
-      "remediation": "Update to the latest version of Plex Media Server.",
-      "source_url": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319"
+      "is_actively_exploited": true,
+      "epss_score": 0.00432,
+      "epss_percentile": 0.36449,
+      "is_new_today": false,
+      "description": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656.",
+      "remediation": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "source_url": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
     },
     {
       "id": "CVE-2026-96652",
       "vendor": "Plex",
       "product": "Media Server",
-      "title": "Server-Side Request Forgery (SSRF) Vulnerability",
+      "title": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
       "severity": "HIGH",
-      "is_actively_exploited": false,
-      "epss_score": 0.00222,
-      "epss_percentile": 0.11974,
-      "is_new_today": true,
-      "description": "Allows attackers to force the server to POST to arbitrary destinations using X-Plex-Token.",
-      "remediation": "Update to the latest version of Plex Media Server.",
-      "source_url": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319"
+      "is_actively_exploited": true,
+      "epss_score": 0.00423,
+      "epss_percentile": 0.35486,
+      "is_new_today": false,
+      "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. ",
+      "remediation": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "source_url": "https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
     }
   ],
   "ai_breakthroughs": [
     {
-      "title": "FlowState: Execution State as Memory for Long-Horizon LLM Agents",
+      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
       "category": "RESEARCH_PAPER",
-      "summary": "Treats execution state as persistent memory to improve long-horizon task performance.",
-      "why_it_matters": "Addresses the critical bottleneck of context management in multi-step agentic workflows.",
-      "upvotes_or_likes": 0,
-      "url": "https://huggingface.co/papers/2609.34565",
+      "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D mapping. SpatialScout comprises 80 diverse indoor scenes containing 3,140 target objects. Given an object inventory, RGB observations, camera calibration, and camera poses, agents control a camera to explore each scene and estimate object centers in a shared coordinate frame. The task requires coordinating viewpoint selection, cross-view association, geometric estimation, and map revision under bounded interaction budgets. Evaluation jointly measures localization accuracy and target coverage through object-scale overlap scores that penalize missing predictions. Experiments with frontier VLMs reveal substantial limitations: the strongest evaluated model, Claude Opus 5.5, achieves a mean overlap score of 41.71%, with 47.23% of targets exceeding an intersection-over-union (IoU) threshold of 0.5 and only 3.25% exceeding 0.9. These results reveal a substantial gap between recovering coarse object layouts and constructing complete, precise metric maps. SpatialScout provides a quantitative testbed for developing agents that build reliable 3D spatial representations through active perception. Code is available at https://github.com/JesseZZZZZ/SpatialScout.",
+      "why_it_matters": "Top community-ranked research paper (50 upvotes) discussing: SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+      "upvotes_or_likes": 50,
+      "url": "https://huggingface.co/papers/2610.26659",
+      "is_new_today": true
+    },
+    {
+      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+      "category": "RESEARCH_PAPER",
+      "summary": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: successful decisions may require retaining task progress and past interaction outcomes, while partial observability and execution errors compound over time. Existing work has begun to address these challenges by augmenting foundation-model policies with memory and by introducing hierarchical architectures that separate high-level planning from low-level execution. We organize the high-level VLM as a robotic agent through an editable harness to maintain task context and improve planning through execution experience. We instantiate this approach as SERA (Self-Evolving Robotic Agent), with a fixed VLA executor providing low-level control. The harness maintains and updates task context using observations and execution feedback to guide subsequent planning. Self-evolution uses environment rollouts to propose and evaluate harness revisions, with the selected configuration fixed before held-out testing. On RoboMME, SERA achieves 51.38% overall success with autonomous selection, compared with 44.38% without self-evolution. Our exploration suggests that agentic planning is a promising direction for history-dependent robotic manipulation.",
+      "why_it_matters": "Top community-ranked research paper (5 upvotes) discussing: From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+      "upvotes_or_likes": 5,
+      "url": "https://huggingface.co/papers/2610.29560",
+      "is_new_today": true
+    },
+    {
+      "title": "CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction",
+      "category": "RESEARCH_PAPER",
+      "summary": "Reconstructing 3D scenes from sparse views without per-scene optimization remains highly challenging, especially for recovering accurate geometry and fine textures. While recent feedforward approaches leverage generalizable 3D Gaussian Splatting (3DGS) for scene generation, they typically assign one or multiple Gaussians to each pixel. Such uniform allocation not only produces highly redundant representations by wasting primitives in homogeneous areas, but also fails to exploit the inherent geometric priors of planar surfaces, often resulting in sub-optimal structural modeling. To address these limitations, we present CompactSplat, a novel feedforward framework that enables a content-aware allocation of 3D Gaussians. By integrating texture-guided spatial partitioning with hierarchical sampling, CompactSplat adaptively distributes primitives - concentrating dense Gaussians in complex regions while tiling flat areas with expanded, scale-modulated primitives. Moreover, our framework inherently supports dynamic sparsity control at inference time, enabling seamless trade-offs between rendering fidelity and memory footprint without requiring network retraining. Extensive experiments on RealEstate10K, DL3DV, and ScanNet demonstrate that CompactSplat consistently outperforms prior methods on both standard metrics and high-resolution rendering consistency, achieving high-fidelity reconstructions with significantly fewer primitives.",
+      "why_it_matters": "Top community-ranked research paper (1 upvotes) discussing: CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction",
+      "upvotes_or_likes": 1,
+      "url": "https://huggingface.co/papers/2610.13177",
+      "is_new_today": true
+    },
+    {
+      "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+      "category": "RESEARCH_PAPER",
+      "summary": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one. Judging a transition requires an expectation of what should have followed the action. Existing GUI world models provide one, but they output it as text, code, or images, so checking it against the observed screen requires a second model to judge the two. We argue that a world model meant for verification should instead predict in the space in which observations are encoded, and present LGWM, a decoder-free, action-conditioned world model that predicts the representation of the next screen directly, trained without semantic annotation on 1.85M real GUI transitions. Verification reduces to a vector comparison, and the same signal reveals whether a mismatch is harmful. We evaluate on RSWT-BENCH, a diagnostic where each credential screen appears under both a legitimate and a hijacked transition, so detectors that see only the screen are at chance by construction. The training-free score reaches 0.987 AUC at 17 ms per decision, on par with the strongest closed-source VLMs and about ten AUC points above generative GUI world models at over three orders of magnitude lower latency. The residual direction reaches 0.953 AUC at separating harmful from benign violations, where prompted VLMs are near chance. Further analyses show that the prediction is a usable future state rather than an anomaly score. World models have mostly served as simulators or planners; our results point to a third role, verification, for which predicting in representation space is the natural design.",
+      "why_it_matters": "Top community-ranked research paper (1 upvotes) discussing: Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+      "upvotes_or_likes": 1,
+      "url": "https://huggingface.co/papers/2610.11942",
       "is_new_today": true
     },
     {
       "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "category": "MODEL_RELEASE",
-      "summary": "High-performance image-text-to-text model.",
-      "why_it_matters": "Provides a powerful, efficient option for multimodal reasoning tasks.",
-      "upvotes_or_likes": 0,
+      "summary": "Trending open-weights model specialized in image-text-to-text.",
+      "why_it_matters": "High engagement open model with 2,240 likes and 42,122 downloads.",
+      "upvotes_or_likes": 2240,
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "is_new_today": false
+    },
+    {
+      "title": "black-forest-labs/flux-3-image-klein-comfy",
+      "category": "MODEL_RELEASE",
+      "summary": "Trending open-weights model specialized in image-to-image.",
+      "why_it_matters": "High engagement open model with 1,225 likes and 490,447 downloads.",
+      "upvotes_or_likes": 1225,
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "is_new_today": true
+    },
+    {
+      "title": "meta-models/Muse-Spark-Open-816B-A42B",
+      "category": "MODEL_RELEASE",
+      "summary": "Trending open-weights model specialized in image-text-to-text.",
+      "why_it_matters": "High engagement open model with 645 likes and 2,891 downloads.",
+      "upvotes_or_likes": 645,
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "is_new_today": true
+    },
+    {
+      "title": "black-forest-labs/flux-3-image-klein",
+      "category": "MODEL_RELEASE",
+      "summary": "Trending open-weights model specialized in image-to-image.",
+      "why_it_matters": "High engagement open model with 615 likes and 92,604 downloads.",
+      "upvotes_or_likes": 615,
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
       "is_new_today": true
     }
   ],
   "trending_tools": [
     {
-      "repo_name": "deepseek-ai/DeepInfer",
-      "language": "Python",
-      "stars": 16154,
-      "description": "High-performance, large-scale inference framework for DeepSeek models.",
-      "use_case": "Optimizing the deployment and serving of large language models in production.",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "repo_name": "Gathin23/cleanyourtv",
+      "language": "Java",
+      "stars": 21410,
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "use_case": "Rapidly emerging open source project in Java with 21,410 stars.",
+      "url": "https://github.com/Gathin23/cleanyourtv",
       "is_new_today": true
     },
     {
-      "repo_name": "Leonxlnx/earshot",
+      "repo_name": "deepseek-ai/DeepInfer",
       "language": "Python",
-      "stars": 2018,
-      "description": "Ears for coding agents: let AI hear, review and make sound.",
-      "use_case": "Enabling audio-based feedback loops for AI-driven development agents.",
-      "url": "https://github.com/Leonxlnx/earshot",
+      "stars": 19001,
+      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "use_case": "Rapidly emerging open source project in Python with 19,001 stars.",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "is_new_today": false
+    },
+    {
+      "repo_name": "ly05010419/MacNativeGames",
+      "language": "C",
+      "stars": 4191,
+      "description": "No description provided.",
+      "use_case": "Rapidly emerging open source project in C with 4,191 stars.",
+      "url": "https://github.com/ly05010419/MacNativeGames",
+      "is_new_today": true
+    },
+    {
+      "repo_name": "simbasjungles/free-my-tv",
+      "language": "Java",
+      "stars": 2955,
+      "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
+      "use_case": "Rapidly emerging open source project in Java with 2,955 stars.",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "is_new_today": true
+    },
+    {
+      "repo_name": "pengchujin/aerial-tv",
+      "language": "Kotlin",
+      "stars": 2697,
+      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "use_case": "Rapidly emerging open source project in Kotlin with 2,697 stars.",
+      "url": "https://github.com/pengchujin/aerial-tv",
       "is_new_today": true
     }
   ],
   "tech_news": [
     {
-      "headline": "eMudhra intermediate CA compromise",
-      "source": "Security Advisory",
-      "analysis": "A critical compromise of a certificate authority that could lead to widespread trust issues; immediate audit of trust stores is required.",
-      "score": 0,
-      "url": "https://emudhra.we-have-a-problem.com/",
+      "headline": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "source": "Hacker News",
+      "analysis": "High-engagement tech story (543 points) submitted by cbg0.",
+      "score": 543,
+      "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
       "is_new_today": true
     },
     {
-      "headline": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
-      "source": "PHP Official News",
-      "analysis": "PHP maintainers have signaled upcoming critical patches; administrators should prepare for immediate deployment.",
-      "score": 0,
-      "url": "https://news-web.php.net/php.announce/509",
+      "headline": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "source": "Hacker News",
+      "analysis": "High-engagement tech story (508 points) submitted by abhisek.",
+      "score": 508,
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "is_new_today": true
+    },
+    {
+      "headline": "Security Disclosure",
+      "source": "Hacker News",
+      "analysis": "High-engagement tech story (455 points) submitted by passenger.",
+      "score": 455,
+      "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "is_new_today": true
+    },
+    {
+      "headline": "Claude Duet",
+      "source": "Hacker News",
+      "analysis": "High-engagement tech story (367 points) submitted by kuberwastaken.",
+      "score": 367,
+      "url": "https://claude.com/product/claude-duet",
+      "is_new_today": true
+    },
+    {
+      "headline": "GitLab critical patch release",
+      "source": "Hacker News",
+      "analysis": "High-engagement tech story (345 points) submitted by artooro.",
+      "score": 345,
+      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
       "is_new_today": true
     }
   ]
