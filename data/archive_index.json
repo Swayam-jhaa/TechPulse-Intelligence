@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-23",
+    "threat_level": "ELEVATED",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0117,
+    "summary": "The global cybersecurity posture has shifted from HIGH to ELEVATED today as critical threat vectors concentrate around enterprise server components and widespread media infrastructure. Key concerns fo...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 3,
+    "news_count": 3,
+    "json_path": "data/2026/10/2026-10-23.json",
+    "md_path": "reports/2026/10/2026-10-23.md"
+  },
+  {
     "date": "2026-10-22",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
