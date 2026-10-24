@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-23 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-10-24 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: ELEVATED | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Plex Media Server updates are urgent due to an exploit chain combining SSRF, URI scheme manipulation, and arbitrary file write vulnerabilities.
-- IQuest-Q1 introduces a 320B sparse MoE model architecture engineered specifically to power autonomous CLI developer tools.
-- NVIDIA launched OpenShell, offering a isolated runtime designed to manage security and privacy for autonomous AI agent fleets.
+- NEW: Collabora CODE Server (CVE-2026-110447) and Arista VeloCloud Orchestrator (CVE-2026-114625) face high-severity vulnerability disclosures requiring urgent remediation under CISA BOD 26-04.
+- NEW: DeepSeek introduced DeepSeek-V4.1-Flash-1017 alongside new research on split LLM red-teaming (LLM-Attacker) and recursive self-improvement evaluation (EvalResearchBench).
+- NEW: Open-source developer momentum centers on hardware modification and DRM decryption with tools such as EthanArbuckle/fairplay-decrypt and simbasjungles/free-my-tv.
 
-👉 **[Read Full Daily Intelligence Report (2026-10-23)](reports/2026/10/2026-10-23.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-10-24)](reports/2026/10/2026-10-24.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
