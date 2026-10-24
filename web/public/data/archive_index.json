@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-24",
+    "threat_level": "ELEVATED",
+    "yesterday_threat_level": "ELEVATED",
+    "top_epss": 0.0123,
+    "summary": "The cyber threat climate remains ELEVATED day-over-day, characterized by significant vulnerability disclosures across enterprise systems and middle-tier infrastructure. Newly surfaced vulnerabilities ...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/10/2026-10-24.json",
+    "md_path": "reports/2026/10/2026-10-24.md"
+  },
+  {
     "date": "2026-10-23",
     "threat_level": "ELEVATED",
     "yesterday_threat_level": "HIGH",
