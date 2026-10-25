@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-24 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-10-25 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: ELEVATED | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- NEW: Collabora CODE Server (CVE-2026-110447) and Arista VeloCloud Orchestrator (CVE-2026-114625) face high-severity vulnerability disclosures requiring urgent remediation under CISA BOD 26-04.
-- NEW: DeepSeek introduced DeepSeek-V4.1-Flash-1017 alongside new research on split LLM red-teaming (LLM-Attacker) and recursive self-improvement evaluation (EvalResearchBench).
-- NEW: Open-source developer momentum centers on hardware modification and DRM decryption with tools such as EthanArbuckle/fairplay-decrypt and simbasjungles/free-my-tv.
+- [NEW TODAY] DeepSeek released DeepSeek-V4.1-Flash-1017 alongside Black Forest Labs' flux-3-image-klein-comfy, driving high open-weights community engagement.
+- [NEW TODAY] HatchZip, an open-source Rust-based archive extractor that extracts ZIP and 7z files in-place to preserve disk space, surfaced today.
+- [NEW TODAY] Research on diffusion language models reveals that generation speed varies dramatically based on task complexity and token re-use.
 
-👉 **[Read Full Daily Intelligence Report (2026-10-24)](reports/2026/10/2026-10-24.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-10-25)](reports/2026/10/2026-10-25.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
