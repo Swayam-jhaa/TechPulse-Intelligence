@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-25",
+    "threat_level": "ELEVATED",
+    "yesterday_threat_level": "ELEVATED",
+    "top_epss": 0.0228,
+    "summary": "The cyber threat climate remains ELEVATED today, matching yesterday's baseline posture. Security teams face ongoing risks from high-severity vulnerabilities in infrastructure and server software, nota...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 3,
+    "news_count": 3,
+    "json_path": "data/2026/10/2026-10-25.json",
+    "md_path": "reports/2026/10/2026-10-25.md"
+  },
+  {
     "date": "2026-10-24",
     "threat_level": "ELEVATED",
     "yesterday_threat_level": "ELEVATED",
