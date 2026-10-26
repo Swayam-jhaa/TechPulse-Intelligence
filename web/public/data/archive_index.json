@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-26",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "ELEVATED",
+    "top_epss": 0.1233,
+    "summary": "Cybersecurity posture shifts day-over-day from ELEVATED to HIGH due to high-probability remote command execution threats targeting web infrastructure and enterprise collaboration tools. Most critical ...",
+    "cves_count": 5,
+    "ai_count": 5,
+    "tools_count": 5,
+    "news_count": 3,
+    "json_path": "data/2026/10/2026-10-26.json",
+    "md_path": "reports/2026/10/2026-10-26.md"
+  },
+  {
     "date": "2026-10-25",
     "threat_level": "ELEVATED",
     "yesterday_threat_level": "ELEVATED",
