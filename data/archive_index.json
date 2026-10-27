@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-27",
+    "threat_level": "CRITICAL",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 1.0,
+    "summary": "The cybersecurity landscape has shifted to CRITICAL today due to the emergence of two high-severity vulnerabilities in PHP (CVE-2026-109618 and CVE-2026-109619). Both vulnerabilities exhibit near-maxi...",
+    "cves_count": 2,
+    "ai_count": 2,
+    "tools_count": 2,
+    "news_count": 1,
+    "json_path": "data/2026/10/2026-10-27.json",
+    "md_path": "reports/2026/10/2026-10-27.md"
+  },
+  {
     "date": "2026-10-26",
     "threat_level": "HIGH",
     "yesterday_threat_level": "ELEVATED",
