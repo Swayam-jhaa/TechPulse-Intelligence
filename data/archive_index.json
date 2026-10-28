@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-28",
+    "threat_level": "CRITICAL",
+    "yesterday_threat_level": "CRITICAL",
+    "top_epss": 1.0,
+    "summary": "The cybersecurity landscape remains at a CRITICAL threat level today, driven by the continued exploitation of high-impact vulnerabilities in core infrastructure components. PHP remains a primary targe...",
+    "cves_count": 5,
+    "ai_count": 2,
+    "tools_count": 2,
+    "news_count": 2,
+    "json_path": "data/2026/10/2026-10-28.json",
+    "md_path": "reports/2026/10/2026-10-28.md"
+  },
+  {
     "date": "2026-10-27",
     "threat_level": "CRITICAL",
     "yesterday_threat_level": "HIGH",
