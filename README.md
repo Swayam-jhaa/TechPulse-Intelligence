@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-27 ![Threat](https://img.shields.io/badge/THREAT-CRITICAL-crimson?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-10-28 ![Threat](https://img.shields.io/badge/THREAT-CRITICAL-crimson?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: CRITICAL | **Active CVEs**: 2 | **AI Breakthroughs**: 2
+> **Threat Assessment**: CRITICAL | **Active CVEs**: 5 | **AI Breakthroughs**: 2
 
 ### Highlights
-- Two critical PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619) show near-certain exploit probability; immediate patching is mandatory.
-- AI research is pivoting toward long-form video forensics and specialized, compact encoders for closed-set decision tasks.
-- DeepSeek-V4.1-Flash-1017 has emerged as a high-velocity model release, garnering significant community interest.
+- PHP RCE vulnerabilities continue to pose a maximum-risk threat; immediate patching is mandatory for all public-facing PHP environments.
+- The Google Brotli library vulnerability (CVE-2026-111497) introduces significant risk to any software stack utilizing Brotli compression, with an EPSS score of 0.55483.
+- Arista VeloCloud Orchestrator SQL injection (CVE-2026-114625) requires urgent attention for network infrastructure teams to prevent unauthorized access to management interfaces.
 
-👉 **[Read Full Daily Intelligence Report (2026-10-27)](reports/2026/10/2026-10-27.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-10-28)](reports/2026/10/2026-10-28.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
