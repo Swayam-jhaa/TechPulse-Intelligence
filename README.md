@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-29 ![Threat](https://img.shields.io/badge/THREAT-CRITICAL-crimson?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-10-30 ![Threat](https://img.shields.io/badge/THREAT-CRITICAL-crimson?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: CRITICAL | **Active CVEs**: 5 | **AI Breakthroughs**: 2
+> **Threat Assessment**: CRITICAL | **Active CVEs**: 3 | **AI Breakthroughs**: 2
 
 ### Highlights
-- Critical Linux Kernel vulnerability (CVE-2026-46300) allows for memory corruption and potential webshell implantation; immediate patching is required.
-- PHP remains a primary target for remote code execution; ensure all environments are updated to the latest secure versions.
-- New AI research in humanoid robotics (HuGe) and causal interaction grounding (CausGround) signals a shift toward more reliable, physically-aware embodied agents.
+- GitLab CI/CD vulnerability (CVE-2026-97229) poses a critical risk to software supply chains; immediate patching is required.
+- The $5.6B Binance exploit highlights the ongoing vulnerability of high-value cryptocurrency infrastructure to sophisticated threat actors.
+- Linux Kernel vulnerabilities (CVE-2026-46300) continue to be chained for persistent access, necessitating rigorous kernel update cycles.
 
-👉 **[Read Full Daily Intelligence Report (2026-10-29)](reports/2026/10/2026-10-29.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-10-30)](reports/2026/10/2026-10-30.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
