@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-30 ![Threat](https://img.shields.io/badge/THREAT-CRITICAL-crimson?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-10-31 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: CRITICAL | **Active CVEs**: 3 | **AI Breakthroughs**: 2
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- GitLab CI/CD vulnerability (CVE-2026-97229) poses a critical risk to software supply chains; immediate patching is required.
-- The $5.6B Binance exploit highlights the ongoing vulnerability of high-value cryptocurrency infrastructure to sophisticated threat actors.
-- Linux Kernel vulnerabilities (CVE-2026-46300) continue to be chained for persistent access, necessitating rigorous kernel update cycles.
+- GitLab CVE-2026-97229 poses an acute unauthenticated RCE threat with an EPSS exploit probability of 26.57% in the 98th percentile.
+- Ivanti Connect Secure faces two newly disclosed chainable vulnerabilities (CVE-2026-118527 and CVE-2026-111357) enabling predictable file uploads and privilege escalation.
+- DeepSeek released DeepSeek-V4.1-Flash-1017, leading model interest alongside NVIDIA's new Nemotron-3.5 speech recognition model.
 
-👉 **[Read Full Daily Intelligence Report (2026-10-30)](reports/2026/10/2026-10-30.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-10-31)](reports/2026/10/2026-10-31.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
