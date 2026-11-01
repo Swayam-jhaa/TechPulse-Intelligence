@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-01",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.273,
+    "summary": "The global cybersecurity threat climate remains at HIGH today, holding steady day-over-day due to active exploitation of enterprise boundary systems and high-probability unauthenticated remote code ex...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/11/2026-11-01.json",
+    "md_path": "reports/2026/11/2026-11-01.md"
+  },
+  {
     "date": "2026-10-31",
     "threat_level": "HIGH",
     "yesterday_threat_level": "CRITICAL",

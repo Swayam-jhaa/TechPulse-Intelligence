@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-10-31 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-01 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- GitLab CVE-2026-97229 poses an acute unauthenticated RCE threat with an EPSS exploit probability of 26.57% in the 98th percentile.
-- Ivanti Connect Secure faces two newly disclosed chainable vulnerabilities (CVE-2026-118527 and CVE-2026-111357) enabling predictable file uploads and privilege escalation.
-- DeepSeek released DeepSeek-V4.1-Flash-1017, leading model interest alongside NVIDIA's new Nemotron-3.5 speech recognition model.
+- CVE-2026-97229 in GitLab represents an immediate RCE threat with an EPSS exploit probability of 27.3%, driven by an integer overflow in the CI/CD regex engine.
+- Ivanti Connect Secure flaws (CVE-2026-118527 and CVE-2026-111357) are actively exploited in the wild, enabling privilege escalation through vulnerability chaining.
+- LiquidAI released LFM3-1.7B, expanding lightweight edge model options alongside deepseek-ai's newly trending 'dsh-superagent-prototype' repository.
 
-👉 **[Read Full Daily Intelligence Report (2026-10-31)](reports/2026/10/2026-10-31.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-01)](reports/2026/11/2026-11-01.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
