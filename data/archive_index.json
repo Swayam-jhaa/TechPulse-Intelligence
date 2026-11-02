@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-02",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.273,
+    "summary": "Enterprise cyber risk remains HIGH today, matching yesterday's elevated threat climate. Threat actors continue to target developer infrastructure and perimeter gateways, underscored by a critical unau...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 3,
+    "json_path": "data/2026/11/2026-11-02.json",
+    "md_path": "reports/2026/11/2026-11-02.md"
+  },
+  {
     "date": "2026-11-01",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
