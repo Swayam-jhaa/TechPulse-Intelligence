@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-02 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-03 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- HIGH Cyber Threat Climate Baseline: Unauthenticated RCE in GitLab CI/CD (CVE-2026-97229, EPSS 0.273 / 98th percentile) requires immediate patch deployment to prevent source tree compromise.
-- Ivanti Chain Vulnerabilities: Mandatory forensic triage and remediation required for Ivanti Connect Secure predictable identifier and privilege escalation flaws under CISA BOD 26-04 directives.
-- NEW: Open-Weights AI Milestones: DeepSeek-V4.1-Flash-1017 and Mistral-Large-4-1T-A52B surface alongside Venus-DefakerOne2, setting new benchmarks in multimodal speed and vision forensics.
+- GitLab CI/CD regular expression integer overflow (CVE-2026-97229) poses severe risk with an EPSS exploit probability of 27.3% (98th percentile).
+- LEANGUARD introduces formal Lean4 verification guardrails to prevent unsafe tool execution in autonomous AI agents. (Newly emerged today)
+- NVIDIA and LiquidAI release open-weights models targeting speech recognition (Nemotron-3.5) and efficient edge reasoning (LFM3-1.7B). (Newly emerged today)
 
-👉 **[Read Full Daily Intelligence Report (2026-11-02)](reports/2026/11/2026-11-02.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-03)](reports/2026/11/2026-11-03.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
