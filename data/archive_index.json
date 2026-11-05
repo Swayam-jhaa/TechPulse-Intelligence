@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-05",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.6522,
+    "summary": "The global cybersecurity threat climate remains at HIGH today, holding steady day-over-day due to critical vulnerability exposure across widespread enterprise infrastructure and developer platforms. H...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 5,
+    "news_count": 4,
+    "json_path": "data/2026/11/2026-11-05.json",
+    "md_path": "reports/2026/11/2026-11-05.md"
+  },
+  {
     "date": "2026-11-04",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",

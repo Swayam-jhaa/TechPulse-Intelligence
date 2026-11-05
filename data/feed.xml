@@ -5,8 +5,18 @@
     <link>https://github.com/swayam-jha/TechPulse-Intelligence</link>
     <description>Automated daily cybersecurity telemetry, FIRST.org EPSS exploit scoring, AI breakthroughs, and trending developer tooling.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2026 12:08:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:18:58 +0000</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/swayam-jha/TechPulse-Intelligence/main/data/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TechPulse Daily Briefing - 2026-11-05 [Threat: HIGH]</title>
+      <link>https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/11/2026-11-05.md</link>
+      <guid isPermaLink="false">techpulse-briefing-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 06:00:00 +0000</pubDate>
+      <description><![CDATA[<p><strong>Threat Posture:</strong> HIGH | Peak EPSS: 65.2%</p><p><strong>Telemetry:</strong> 5 Active CVEs | 4 AI Innovations | 5 Trending Tools</p><p>The global cybersecurity threat climate remains at HIGH today, holding steady day-over-day due to critical vulnerability exposure across widespread enterprise infrastructure and developer platforms. H...</p><p><a href="https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/11/2026-11-05.md">Read Full Intelligence Briefing on GitHub</a></p>]]></description>
+      <category>Cybersecurity</category>
+      <category>Artificial Intelligence</category>
+      <category>Developer Tools</category>
+    </item>
     <item>
       <title>TechPulse Daily Briefing - 2026-11-04 [Threat: HIGH]</title>
       <link>https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/11/2026-11-04.md</link>
@@ -193,16 +203,6 @@
       <guid isPermaLink="false">techpulse-briefing-2026-10-17</guid>
       <pubDate>Sat, 17 Oct 2026 06:00:00 +0000</pubDate>
       <description><![CDATA[<p><strong>Threat Posture:</strong> HIGH | Peak EPSS: 12.7%</p><p><strong>Telemetry:</strong> 3 Active CVEs | 3 AI Innovations | 1 Trending Tools</p><p>The cybersecurity landscape remains at a HIGH threat level, characterized by a persistent wave of high-severity vulnerabilities affecting critical infrastructure and enterprise management tools. New d...</p><p><a href="https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/10/2026-10-17.md">Read Full Intelligence Briefing on GitHub</a></p>]]></description>
-      <category>Cybersecurity</category>
-      <category>Artificial Intelligence</category>
-      <category>Developer Tools</category>
-    </item>
-    <item>
-      <title>TechPulse Daily Briefing - 2026-10-16 [Threat: HIGH]</title>
-      <link>https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/10/2026-10-16.md</link>
-      <guid isPermaLink="false">techpulse-briefing-2026-10-16</guid>
-      <pubDate>Fri, 16 Oct 2026 06:00:00 +0000</pubDate>
-      <description><![CDATA[<p><strong>Threat Posture:</strong> HIGH | Peak EPSS: 3.2%</p><p><strong>Telemetry:</strong> 5 Active CVEs | 8 AI Innovations | 5 Trending Tools</p><p>The cybersecurity landscape for 2026-10-16 is evaluated at threat level HIGH. Security authorities recorded 5 actively exploited vulnerabilities cataloged in CISA KEV. Threat conditions hold steady at...</p><p><a href="https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/10/2026-10-16.md">Read Full Intelligence Briefing on GitHub</a></p>]]></description>
       <category>Cybersecurity</category>
       <category>Artificial Intelligence</category>
       <category>Developer Tools</category>
