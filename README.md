@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-04 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-05 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 3
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- New WordPress Core TOCTOU vulnerability (CVE-2026-119977) allows unauthenticated RCE during upgrade windows.
-- Ivanti Connect Secure remains under active exploitation; ensure all chained vulnerabilities are addressed per CISA guidance.
-- New AI research suggests 'reasoning compression' and context compaction can significantly reduce inference costs without sacrificing accuracy.
+- GitLab vulnerability CVE-2026-97229 poses severe operational risk with a 65.22% EPSS score, permitting unauthenticated RCE via malicious CI/CD regex patterns.
+- Apple issued advisories for CVE-2024-27834 (NEW), an improper authentication flaw enabling pointer authentication code (PAC) bypasses across iOS, macOS, and Safari.
+- Major open-weight model releases arrived from Mistral AI (Mistral-Large-4-1T-A52B) and Moonshot AI (Kimi-K3.1-Pro), expanding open-access multimodal reasoning capabilities.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-04)](reports/2026/11/2026-11-04.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-05)](reports/2026/11/2026-11-05.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
