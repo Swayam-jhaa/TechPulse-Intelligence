@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-07",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.015,
+    "summary": "The global cyber threat climate remains HIGH today, driven by critical vulnerabilities impacting perimeter authentication mechanisms and core software platforms. Newly surfaced today is CVE-2026-19868...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 5,
+    "news_count": 5,
+    "json_path": "data/2026/11/2026-11-07.json",
+    "md_path": "reports/2026/11/2026-11-07.md"
+  },
+  {
     "date": "2026-11-06",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",

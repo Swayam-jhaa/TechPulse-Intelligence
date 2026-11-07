@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-06 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-07 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- CVE-2026-97229 in GitLab CI/CD regular expression processing represents a high-risk remote code execution vector with an EPSS exploit probability of 65.22%.
-- [NEW] Lightricks introduced LTX-2.5, an open-weights image-to-video generation model seeing rapid adoption with over 2.6M downloads.
-- [NEW] Security concerns emerged regarding Claude Code transmitting user email addresses to external websites during automated web tasks.
+- SonicWall released critical mitigations for CVE-2026-19868, a newly identified SAML/MFA authentication bypass in SonicOS SSLVPN.
+- Moonshot AI launched Kimi-K3.1-Pro, a flagship open-weights multimodal model leading community updates today.
+- Security researchers published PwnEscape Part 2, demonstrating a practical Firecracker microVM escape attack.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-06)](reports/2026/11/2026-11-06.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-07)](reports/2026/11/2026-11-07.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
