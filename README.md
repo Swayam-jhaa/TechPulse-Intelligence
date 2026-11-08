@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-07 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-08 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 5
 
 ### Highlights
-- SonicWall released critical mitigations for CVE-2026-19868, a newly identified SAML/MFA authentication bypass in SonicOS SSLVPN.
-- Moonshot AI launched Kimi-K3.1-Pro, a flagship open-weights multimodal model leading community updates today.
-- Security researchers published PwnEscape Part 2, demonstrating a practical Firecracker microVM escape attack.
+- Apple iOS/macOS pointer authentication bypass (CVE-2024-27834) leads active risk vectors with a 1.50% EPSS probability (74.5th percentile).
+- Claude Code's 'Don't Ask Again' prompt feature reportedly exposed credentials across 1,122 public GitHub repositories today.
+- WordPress Core releases urgent fix for TOCTOU race condition (CVE-2026-119977) preventing unauthenticated RCE during package upgrades.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-07)](reports/2026/11/2026-11-07.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-08)](reports/2026/11/2026-11-08.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

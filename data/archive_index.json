@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-08",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.015,
+    "summary": "The global cyber threat climate remains steady at HIGH day-over-day, anchored by actionable exploits across edge appliances, widespread CMS deployments, and enterprise OS ecosystems. Key vulnerabiliti...",
+    "cves_count": 5,
+    "ai_count": 5,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/11/2026-11-08.json",
+    "md_path": "reports/2026/11/2026-11-08.md"
+  },
+  {
     "date": "2026-11-07",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
