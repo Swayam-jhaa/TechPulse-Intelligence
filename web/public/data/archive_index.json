@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-09",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.015,
+    "summary": "The global enterprise security climate remains at a HIGH threat posture day-over-day, dominated by critical edge-device authentication bypasses and multi-vulnerability exploit chains. Attention center...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/11/2026-11-09.json",
+    "md_path": "reports/2026/11/2026-11-09.md"
+  },
+  {
     "date": "2026-11-08",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",

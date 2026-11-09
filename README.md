@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-08 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-09 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 5
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Apple iOS/macOS pointer authentication bypass (CVE-2024-27834) leads active risk vectors with a 1.50% EPSS probability (74.5th percentile).
-- Claude Code's 'Don't Ask Again' prompt feature reportedly exposed credentials across 1,122 public GitHub repositories today.
-- WordPress Core releases urgent fix for TOCTOU race condition (CVE-2026-119977) preventing unauthenticated RCE during package upgrades.
+- SonicWall SonicOS SSLVPN vulnerability (CVE-2026-19868) enables attackers to bypass SAML and enforced MFA controls using alternate valid credentials.
+- Ivanti Connect Secure flaw chain (CVE-2026-118527 and CVE-2026-111357) allows local and remote authenticated attackers to escalate privileges and write malicious files to disk.
+- WordPress Core unauthenticated TOCTOU race condition (CVE-2026-119977) allows code execution during core upgrade windows via predictable staging paths.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-08)](reports/2026/11/2026-11-08.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-09)](reports/2026/11/2026-11-09.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
