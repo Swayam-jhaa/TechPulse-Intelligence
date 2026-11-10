@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-09 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-10 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 3
 
 ### Highlights
-- SonicWall SonicOS SSLVPN vulnerability (CVE-2026-19868) enables attackers to bypass SAML and enforced MFA controls using alternate valid credentials.
-- Ivanti Connect Secure flaw chain (CVE-2026-118527 and CVE-2026-111357) allows local and remote authenticated attackers to escalate privileges and write malicious files to disk.
-- WordPress Core unauthenticated TOCTOU race condition (CVE-2026-119977) allows code execution during core upgrade windows via predictable staging paths.
+- Immediate patching required for OpenSSH (CVE-2026-123158) and FreeSwitch (CVE-2026-116779) due to high exploitability and potential for RCE.
+- GPUStack users must audit administrative API keys and credentials following the discovery of an improper authentication vulnerability (CVE-2026-102895).
+- The 'InfraRSI' framework introduces a new paradigm for autonomous LLM training optimization, potentially reducing operational overhead and OOM errors.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-09)](reports/2026/11/2026-11-09.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-10)](reports/2026/11/2026-11-10.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
