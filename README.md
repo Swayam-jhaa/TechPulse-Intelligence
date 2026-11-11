@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-10 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-11 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 3
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Immediate patching required for OpenSSH (CVE-2026-123158) and FreeSwitch (CVE-2026-116779) due to high exploitability and potential for RCE.
-- GPUStack users must audit administrative API keys and credentials following the discovery of an improper authentication vulnerability (CVE-2026-102895).
-- The 'InfraRSI' framework introduces a new paradigm for autonomous LLM training optimization, potentially reducing operational overhead and OOM errors.
+- High-risk vulnerability chain identified in Barracuda Email Security Gateways combining remote auth bypass (CVE-2026-116606) with root OS command injection (CVE-2026-111560).
+- Microsoft Outlook patched for CVE-2026-124194, preventing unauthenticated network spoofing vectors without user interaction.
+- Moonshot AI deployed Kimi-K3.1-Pro, delivering enhanced multimodal capabilities for vision-language tasks.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-10)](reports/2026/11/2026-11-10.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-11)](reports/2026/11/2026-11-11.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-11",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.016,
+    "summary": "The global cyber threat climate remains at HIGH today, holding steady day-over-day due to dangerous vulnerability chaining vectors in enterprise security infrastructure. A critical pair of flaws in Ba...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 3,
+    "json_path": "data/2026/11/2026-11-11.json",
+    "md_path": "reports/2026/11/2026-11-11.md"
+  },
+  {
     "date": "2026-11-10",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
