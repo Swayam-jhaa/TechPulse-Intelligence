@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-13 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-14 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
+> **Threat Assessment**: ELEVATED | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- CRITICAL ALERT: Chaining Barracuda ESG CVE-2026-116606 and CVE-2026-111560 allows unauthenticated remote root command execution; immediate vendor mitigation under CISA BOD 26-04 is required.
-- NEW TODAY: Tech leadership shift as NVIDIA CEO Jensen Huang resigns, coinciding with Google's reveal of Gemini 4 Hydrogen and Orchestrator.
-- NEW TODAY: Rust reaches version 1.100 milestone, highlighting continued compiler stability and language ecosystem maturity.
+- Threat climate cools from HIGH to ELEVATED as newly surfaced vulnerabilities show low EPSS scores and no active wild exploitation.
+- UnrealIRCd (CVE-2026-114713) and Check Point Gaia OS (CVE-2026-123039) emerge as newly reported high-severity vulnerabilities requiring immediate patch deployment.
+- Qwen launches Qwen3.8-27B, providing open weights for advanced 27B-scale vision-text multimodal reasoning.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-13)](reports/2026/11/2026-11-13.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-14)](reports/2026/11/2026-11-14.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

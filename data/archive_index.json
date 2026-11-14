@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-14",
+    "threat_level": "ELEVATED",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0162,
+    "summary": "The global cybersecurity threat landscape shifts down slightly from HIGH to ELEVATED today as no active zero-day exploitation in the wild has been observed across today's advisory feed. However, multi...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/11/2026-11-14.json",
+    "md_path": "reports/2026/11/2026-11-14.md"
+  },
+  {
     "date": "2026-11-13",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
