@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-14 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-15 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: ELEVATED | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Threat climate cools from HIGH to ELEVATED as newly surfaced vulnerabilities show low EPSS scores and no active wild exploitation.
-- UnrealIRCd (CVE-2026-114713) and Check Point Gaia OS (CVE-2026-123039) emerge as newly reported high-severity vulnerabilities requiring immediate patch deployment.
-- Qwen launches Qwen3.8-27B, providing open weights for advanced 27B-scale vision-text multimodal reasoning.
+- Security Breach Alert: Lovable apps exposed passport details and over 200,000 private messages due to database access misconfigurations.
+- High-Risk Enterprise Flaws: Check Point DynamicCLI socket vulnerability (CVE-2026-123039, EPSS 82.7th percentile) and Cisco BroadWorks XXE (CVE-2026-20320) require immediate patching.
+- New Model Release: Lightricks launched LTX-2.5 image-to-video open model gaining rapid community adoption with over 2.7M downloads.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-14)](reports/2026/11/2026-11-14.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-15)](reports/2026/11/2026-11-15.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
