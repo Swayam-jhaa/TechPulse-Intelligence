@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-16",
+    "threat_level": "ELEVATED",
+    "yesterday_threat_level": "ELEVATED",
+    "top_epss": 0.0219,
+    "summary": "The cyber threat climate remains ELEVATED today, characterized by significant high-severity vulnerabilities across network security appliances, communication infrastructure, and desktop productivity s...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 3,
+    "news_count": 4,
+    "json_path": "data/2026/11/2026-11-16.json",
+    "md_path": "reports/2026/11/2026-11-16.md"
+  },
+  {
     "date": "2026-11-15",
     "threat_level": "ELEVATED",
     "yesterday_threat_level": "ELEVATED",
