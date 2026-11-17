@@ -5,8 +5,18 @@
     <link>https://github.com/swayam-jha/TechPulse-Intelligence</link>
     <description>Automated daily cybersecurity telemetry, FIRST.org EPSS exploit scoring, AI breakthroughs, and trending developer tooling.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 12:45:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:18:42 +0000</lastBuildDate>
     <atom:link href="https://raw.githubusercontent.com/swayam-jha/TechPulse-Intelligence/main/data/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TechPulse Daily Briefing - 2026-11-17 [Threat: ELEVATED]</title>
+      <link>https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/11/2026-11-17.md</link>
+      <guid isPermaLink="false">techpulse-briefing-2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:00:00 +0000</pubDate>
+      <description><![CDATA[<p><strong>Threat Posture:</strong> ELEVATED | Peak EPSS: 2.2%</p><p><strong>Telemetry:</strong> 5 Active CVEs | 4 AI Innovations | 4 Trending Tools</p><p>The global cyber threat climate remains ELEVATED day-over-day, driven by a series of high-severity security advisories across enterprise networking infrastructure, endpoint productivity software, and ...</p><p><a href="https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/11/2026-11-17.md">Read Full Intelligence Briefing on GitHub</a></p>]]></description>
+      <category>Cybersecurity</category>
+      <category>Artificial Intelligence</category>
+      <category>Developer Tools</category>
+    </item>
     <item>
       <title>TechPulse Daily Briefing - 2026-11-16 [Threat: ELEVATED]</title>
       <link>https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/11/2026-11-16.md</link>
@@ -193,16 +203,6 @@
       <guid isPermaLink="false">techpulse-briefing-2026-10-29</guid>
       <pubDate>Thu, 29 Oct 2026 06:00:00 +0000</pubDate>
       <description><![CDATA[<p><strong>Threat Posture:</strong> CRITICAL | Peak EPSS: 100.0%</p><p><strong>Telemetry:</strong> 5 Active CVEs | 2 AI Innovations | 1 Trending Tools</p><p>The cybersecurity landscape remains at a CRITICAL threat level, driven by the continued exploitation of high-impact vulnerabilities in core infrastructure components. The Linux Kernel (CVE-2026-46300)...</p><p><a href="https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/10/2026-10-29.md">Read Full Intelligence Briefing on GitHub</a></p>]]></description>
-      <category>Cybersecurity</category>
-      <category>Artificial Intelligence</category>
-      <category>Developer Tools</category>
-    </item>
-    <item>
-      <title>TechPulse Daily Briefing - 2026-10-28 [Threat: CRITICAL]</title>
-      <link>https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/10/2026-10-28.md</link>
-      <guid isPermaLink="false">techpulse-briefing-2026-10-28</guid>
-      <pubDate>Wed, 28 Oct 2026 06:00:00 +0000</pubDate>
-      <description><![CDATA[<p><strong>Threat Posture:</strong> CRITICAL | Peak EPSS: 100.0%</p><p><strong>Telemetry:</strong> 5 Active CVEs | 2 AI Innovations | 2 Trending Tools</p><p>The cybersecurity landscape remains at a CRITICAL threat level today, driven by the continued exploitation of high-impact vulnerabilities in core infrastructure components. PHP remains a primary targe...</p><p><a href="https://github.com/swayam-jha/TechPulse-Intelligence/blob/main/reports/2026/10/2026-10-28.md">Read Full Intelligence Briefing on GitHub</a></p>]]></description>
       <category>Cybersecurity</category>
       <category>Artificial Intelligence</category>
       <category>Developer Tools</category>

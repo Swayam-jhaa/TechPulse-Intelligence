@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-17",
+    "threat_level": "ELEVATED",
+    "yesterday_threat_level": "ELEVATED",
+    "top_epss": 0.0219,
+    "summary": "The global cyber threat climate remains ELEVATED day-over-day, driven by a series of high-severity security advisories across enterprise networking infrastructure, endpoint productivity software, and ...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/11/2026-11-17.json",
+    "md_path": "reports/2026/11/2026-11-17.md"
+  },
+  {
     "date": "2026-11-16",
     "threat_level": "ELEVATED",
     "yesterday_threat_level": "ELEVATED",
