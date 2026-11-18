@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-17 ![Threat](https://img.shields.io/badge/THREAT-ELEVATED-yellow?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-18 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: ELEVATED | **Active CVEs**: 5 | **AI Breakthroughs**: 4
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Supply chain warning: Optimizely platform compromise resulted in unauthorized malware delivery across major enterprise domains including Zoom and GitLab.
-- Check Point security gateways and firewalls face elevated local privilege escalation risks via unauthenticated root sockets (CVE-2026-123039, EPSS 2.19%).
-- Lightricks launched LTX-2.5, introducing advanced open image-to-video generation capabilities to the Hugging Face community.
+- NEW: Perforce Puppet Enterprise deserialization flaw (CVE-2026-115731) permits arbitrary code execution on Puppet Servers via signed agent certificate reports.
+- NEW: Emerging high-impact 'Java4Shell' OpenJDK Base64 RCE threat is drawing intense industry analysis and potential enterprise risk exposure.
+- NEW: AURA 2.0 introduces Model-Initiated Conversation (MIC), transitioning video AI assistants from reactive chatbots to proactive streaming agents.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-17)](reports/2026/11/2026-11-17.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-18)](reports/2026/11/2026-11-18.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---

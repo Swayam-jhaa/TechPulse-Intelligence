@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-18",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "ELEVATED",
+    "top_epss": 0.0194,
+    "summary": "The global cyber threat climate shifted from ELEVATED to HIGH today, driven by critical infrastructure disruptions and widespread exposure across key enterprise management services. A newly disclosed ...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/11/2026-11-18.json",
+    "md_path": "reports/2026/11/2026-11-18.md"
+  },
+  {
     "date": "2026-11-17",
     "threat_level": "ELEVATED",
     "yesterday_threat_level": "ELEVATED",
