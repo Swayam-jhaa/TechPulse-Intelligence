@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-18 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-19 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- NEW: Perforce Puppet Enterprise deserialization flaw (CVE-2026-115731) permits arbitrary code execution on Puppet Servers via signed agent certificate reports.
-- NEW: Emerging high-impact 'Java4Shell' OpenJDK Base64 RCE threat is drawing intense industry analysis and potential enterprise risk exposure.
-- NEW: AURA 2.0 introduces Model-Initiated Conversation (MIC), transitioning video AI assistants from reactive chatbots to proactive streaming agents.
+- NEW: High-risk RCE in BerriAI LiteLLM (CVE-2026-40217) exhibits a 17.02% EPSS score, allowing arbitrary bytecode execution via URI endpoints.
+- NEW: Major web infrastructure threats surfaced, including an unauthenticated RCE in Nginx and the 'Ruby2shell' pre-auth RCE vulnerability in stock Rails.
+- NEW: Qwen released Qwen3.8-27B alongside MiniMax-H3-Image and Tencent's Hy4-flash, expanding open multimodal capabilities.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-18)](reports/2026/11/2026-11-18.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-19)](reports/2026/11/2026-11-19.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
