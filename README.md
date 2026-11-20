@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-19 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-20 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- NEW: High-risk RCE in BerriAI LiteLLM (CVE-2026-40217) exhibits a 17.02% EPSS score, allowing arbitrary bytecode execution via URI endpoints.
-- NEW: Major web infrastructure threats surfaced, including an unauthenticated RCE in Nginx and the 'Ruby2shell' pre-auth RCE vulnerability in stock Rails.
-- NEW: Qwen released Qwen3.8-27B alongside MiniMax-H3-Image and Tencent's Hy4-flash, expanding open multimodal capabilities.
+- CRITICAL RISK: BerriAI LiteLLM vulnerability CVE-2026-40217 reaches a 61.9% EPSS exploit probability score, requiring immediate isolation of the /guardrails/test_custom_code route.
+- NEW ADVISORY: OpenSSL buffer overflow in EVP_EncodeBlock() (CVE-2026-121481) rated CVSS 9.8 surfaced today, demanding swift library upgrades.
+- AI MODEL TRACTION: Haru-4B audio-to-audio model sees massive community uptake with 3,990 upvotes alongside Apple's FastFrames-L video generation release.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-19)](reports/2026/11/2026-11-19.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-20)](reports/2026/11/2026-11-20.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
