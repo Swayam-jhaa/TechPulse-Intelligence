@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-20",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.6191,
+    "summary": "The global cybersecurity threat climate remains at HIGH today, driven by critical vulnerabilities in AI middleware and core enterprise infrastructure. Most notably, BerriAI LiteLLM (CVE-2026-40217) pr...",
+    "cves_count": 5,
+    "ai_count": 4,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/11/2026-11-20.json",
+    "md_path": "reports/2026/11/2026-11-20.md"
+  },
+  {
     "date": "2026-11-19",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
