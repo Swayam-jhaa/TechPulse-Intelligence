@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-22",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.0546,
+    "summary": "The global cybersecurity posture remains at a HIGH threat level day-over-day, anchored by systemic enterprise vulnerabilities across network infrastructure, virtualization platforms, and enterprise we...",
+    "cves_count": 5,
+    "ai_count": 5,
+    "tools_count": 4,
+    "news_count": 4,
+    "json_path": "data/2026/11/2026-11-22.json",
+    "md_path": "reports/2026/11/2026-11-22.md"
+  },
+  {
     "date": "2026-11-21",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",
