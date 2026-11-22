@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-21 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-22 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 5
 
 ### Highlights
-- Critical enterprise vulnerabilities surfaced across VMware vCenter (CVE-2026-123890) and Apache Roller (CVE-2026-129448), demanding immediate patching under CISA BOD 26-04 directives.
-- Synology DSM vulnerability CVE-2024-10441 maintains an elevated EPSS exploit score of 0.02415 (84.5th percentile), presenting severe remote execution risk.
-- Thinking Machines released Inkling-2-Mini, a multimodal image-text model gaining rapid traction with over 1,200 community upvotes.
+- Threat level holds at HIGH due to pervasive enterprise vulnerabilities in VMware vCenter, Cisco Expressway, and Apache Roller requiring strict BOD 26-04 remediation.
+- NEW TODAY: unsloth/Inkling-2-Mini-GGUF delivers lightweight vision-language capabilities capable of operating in under 5.5 GB of memory.
+- NEW TODAY: Formal verification achieves a major milestone with the Lean verification of the Riemann Hypothesis.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-21)](reports/2026/11/2026-11-21.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-22)](reports/2026/11/2026-11-22.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
