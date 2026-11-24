@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-24",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.498,
+    "summary": "The cybersecurity landscape for 2026-11-24 is evaluated at threat level HIGH. Security authorities recorded 5 actively exploited vulnerabilities cataloged in CISA KEV. Threat conditions hold steady at...",
+    "cves_count": 5,
+    "ai_count": 8,
+    "tools_count": 5,
+    "news_count": 5,
+    "json_path": "data/2026/11/2026-11-24.json",
+    "md_path": "reports/2026/11/2026-11-24.md"
+  },
+  {
     "date": "2026-11-23",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",

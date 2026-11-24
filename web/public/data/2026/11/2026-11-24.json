@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-24",
+  "threat_level": "HIGH",
+  "yesterday_threat_level": "HIGH",
+  "executive_summary": "The cybersecurity landscape for 2026-11-24 is evaluated at threat level HIGH. Security authorities recorded 5 actively exploited vulnerabilities cataloged in CISA KEV. Threat conditions hold steady at HIGH day-over-day. Primary exposure impacts infrastructure from Project MONAI, N-able, Apache. Immediate patching is advised.\n\nIn artificial intelligence, researchers and engineers cataloged 4 breakthrough research papers and 4 trending open-weights models. Innovation centers on post-hoc calibration, specification-driven training, and specialized open inference weights demonstrating rapid optimization across autonomous workflows.\n\nAcross the open-source engineering ecosystem, 5 high-velocity developer tools gained significant star traction, while top architectural discussions on Hacker News highlighted infrastructure evolutions and ecosystem shifts. Engineering teams are prioritizing high-throughput inference runtimes, agentic developer tooling, and resilient operational pipelines.",
+  "key_takeaways": [
+    "Security Alert: 🔥 NEW: CVE-2026-133968 (Project MONAI MONAI Label) is under active wild exploitation [EPSS Exploit Prob: 49.8%]—remediation required.",
+    "AI Breakthrough: 🔥 'ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification' highlights today's community interest with 0 engagements.",
+    "Developer Arsenal: 🔥 Repository Marvisak/VIctory surged to 9,234 stars in the Rust ecosystem.",
+    "Industry Discussion: 'Nvidia Reinstates Jensen Huang as CEO' sparked major developer dialogue with 2697 engagement points."
+  ],
+  "cves": [
+    {
+      "id": "CVE-2026-133968",
+      "vendor": "Project MONAI",
+      "product": "MONAI Label",
+      "title": "Project MONAI MONAI Label Path Traversal Vulnerability",
+      "severity": "HIGH",
+      "is_actively_exploited": true,
+      "epss_score": 0.49795,
+      "epss_percentile": 0.98916,
+      "is_new_today": true,
+      "description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+      "remediation": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "source_url": "https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94 ; https://github.com/Project-MONAI/MONAILabel/pull/1915 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+    },
+    {
+      "id": "CVE-2026-134624",
+      "vendor": "N-able",
+      "product": "MailAssure",
+      "title": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+      "severity": "HIGH",
+      "is_actively_exploited": true,
+      "epss_score": 0.00617,
+      "epss_percentile": 0.50289,
+      "is_new_today": true,
+      "description": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+      "remediation": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "source_url": "https://me.n-able.com/s/security-advisory/aArVy0000002mrlKAA ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+    },
+    {
+      "id": "CVE-2026-129448",
+      "vendor": "Apache",
+      "product": "Roller",
+      "title": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+      "severity": "HIGH",
+      "is_actively_exploited": true,
+      "epss_score": 0.40069,
+      "epss_percentile": 0.98654,
+      "is_new_today": false,
+      "description": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+      "remediation": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "source_url": "https://lists.apache.org/thread/cc0jck13nb9vvcmzxzwotr6n16mx28z9 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+    },
+    {
+      "id": "CVE-2026-123890",
+      "vendor": "Broadcom",
+      "product": "VMware vCenter",
+      "title": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "severity": "HIGH",
+      "is_actively_exploited": true,
+      "epss_score": 0.03526,
+      "epss_percentile": 0.89444,
+      "is_new_today": false,
+      "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+      "remediation": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines",
+      "source_url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+    },
+    {
+      "id": "CVE-2025-42884",
+      "vendor": "SAP",
+      "product": "NetWeaver",
+      "title": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+      "severity": "HIGH",
+      "is_actively_exploited": true,
+      "epss_score": 0.00902,
+      "epss_percentile": 0.60474,
+      "is_new_today": false,
+      "description": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+      "remediation": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "source_url": "https://support.sap.com/en/my-support/knowledge-base/security-notes-news/bulletin-2025.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+    }
+  ],
+  "ai_breakthroughs": [
+    {
+      "title": "ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification",
+      "category": "RESEARCH_PAPER",
+      "summary": "Animal re-identification (Re-ID) must distinguish individuals across species and capture conditions. We introduce ApexID, a hierarchical SphereFace2-based loss that integrates global identity discrimination with balanced animal-category supervision. Using 132,533 images curated from 19 public datasets, we evaluate three model families and four objectives on four external datasets with observation-aware retrieval protocols. ApexID achieves a dataset-averaged Rank-1 accuracy of 64.89% with ConvNeXt-Small and an mAP of 32.54% with MIEW-ID, outperforming their pretrained reference models. On elephants, a category absent from animal Re-ID training, our ConvNeXt-Small variant achieves the highest retrieval performance among the fourteen evaluated configurations. Scores vary by backbone and dataset, and open-set evaluation reveals remaining discovery challenges. These findings support hierarchical category-identity learning to improve transfer to unseen datasets and species.",
+      "why_it_matters": "Top community-ranked research paper (0 upvotes) discussing: ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification",
+      "upvotes_or_likes": 0,
+      "url": "https://huggingface.co/papers/2611.29723",
+      "is_new_today": true
+    },
+    {
+      "title": "LLMs Memorize Their Own Hallucinations During Post-Training",
+      "category": "RESEARCH_PAPER",
+      "summary": "Reasoning domains have shaped the post-training recipes of frontier models even though they are trained and deployed in domains beyond math and code. In this paper, we study the consequences of directly adopting reasoning-centric training recipes, e.g., the use of outcome-based rewards for reinforcement learning (RL), injection of \"cognitive\" behaviors such as proposing and backtracking from hypotheses in reasoning chains, etc., for knowledge tasks. We hypothesize that these decisions, while useful for reasoning, inadvertently encourage models to memorize hallucinations they themselves generate in their long reasoning chains when trained on knowledge tasks. To study this, we train models with standard post-training, extract their self-generated hallucinations during RL, and track memorization throughout the rest of training. Our experiments on six open models across two model families and two architectures confirm our hypothesis. We find that models' recall of hallucinations reinforced during training increases by 4.83% on average, compared to just 0.17% for self-hallucinations that receive no training signal. In fact, models even memorize false facts that they immediately retract in their reasoning; a backtracking template inherited from reasoning-centric training that has no benefit for knowledge recall. Furthermore, we find that memorization is strongest on the hardest training questions, and rewarding a hallucination makes the model less likely to abstain from it later (by 7.23% on average). Overall, our work identifies and systematically studies a previously unexamined pathway through which models learn hallucinations during training.",
+      "why_it_matters": "Top community-ranked research paper (0 upvotes) discussing: LLMs Memorize Their Own Hallucinations During Post-Training",
+      "upvotes_or_likes": 0,
+      "url": "https://huggingface.co/papers/2611.26863",
+      "is_new_today": true
+    },
+    {
+      "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+      "category": "RESEARCH_PAPER",
+      "summary": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query types, evidence formats, and failure modes are encountered in the wild. Human practitioners, by contrast, cope with insufficient tools by fashioning new ones from familiar parts and reusing them across tasks. Inspired by this, we propose ToolSmith, an automatic tool-generation framework that grows and reuses modules on top of a lean base tool library. We evaluate ToolSmith on three in-domain multimodal search benchmarks and ten out-of-domain benchmarks under a VLM-as-a-Judge protocol. ToolSmith consistently improves over the base library across deployed agents of varying scales, with larger backbones reaping greater gains, demonstrating the scalability of the approach. Our code and data are available at https://threesr.github.io/toolsmith/.",
+      "why_it_matters": "Top community-ranked research paper (4 upvotes) discussing: ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+      "upvotes_or_likes": 4,
+      "url": "https://huggingface.co/papers/2611.31198",
+      "is_new_today": true
+    },
+    {
+      "title": "DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
+      "category": "RESEARCH_PAPER",
+      "summary": "Human demonstrations provide a rich source of bimanual dexterous skills, yet transferring them to robot hands remains challenging. Existing methods primarily optimize object trajectory tracking, often overlooking how human hands interact with the object. Even with accurate tracking, robots may contact incorrect object parts or slide their fingers, resulting in unstable manipulation. We present DexDuet, a framework that learns contact-preserving bimanual dexterity from a single human demonstration. DexDuet employs two interaction rewards to preserve human hand-object configurations and contacts. To enable coordinated manipulation, we factorize the bimanual policy into two weight-sharing per-hand policies that condition on each other's states. We further propose assisted reference-state initialization (A-RSI), an adaptive curriculum that adjusts object assistance and training starts across demonstration segments to overcome difficult manipulation phases. Across four benchmarks spanning three simulators and five robot embodiments, DexDuet improves object-tracking ADD-AUC by 11 to 41 points over the corresponding baselines while consistently achieving better contact preservation. Notably, among 122 paired runs with comparable object-tracking accuracy, DexDuet preserves the human's contacts better in 117 cases. Code and videos are available at https://rcl-robotics.github.io/Dexduet.io/",
+      "why_it_matters": "Top community-ranked research paper (9 upvotes) discussing: DexDuet: Learning Contact-Preserving Bimanual Dexterity from Human Demonstrations",
+      "upvotes_or_likes": 9,
+      "url": "https://huggingface.co/papers/2611.30495",
+      "is_new_today": true
+    },
+    {
+      "title": "thinkingmachines/Inkling-2-Mini",
+      "category": "MODEL_RELEASE",
+      "summary": "Trending open-weights model specialized in image-text-to-text.",
+      "why_it_matters": "High engagement open model with 5,666 likes and 69,042 downloads.",
+      "upvotes_or_likes": 5666,
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "is_new_today": false
+    },
+    {
+      "title": "unsloth/Inkling-2-Mini-GGUF",
+      "category": "MODEL_RELEASE",
+      "summary": "Trending open-weights model specialized in image-text-to-text.",
+      "why_it_matters": "High engagement open model with 1,196 likes and 1,913,407 downloads.",
+      "upvotes_or_likes": 1196,
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "is_new_today": true
+    },
+    {
+      "title": "inworld/voice-isolator",
+      "category": "MODEL_RELEASE",
+      "summary": "Trending open-weights model specialized in audio-to-audio.",
+      "why_it_matters": "High engagement open model with 777 likes and 12,733 downloads.",
+      "upvotes_or_likes": 777,
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "is_new_today": true
+    },
+    {
+      "title": "tencent/Hy4-flash",
+      "category": "MODEL_RELEASE",
+      "summary": "Trending open-weights model specialized in image-text-to-text.",
+      "why_it_matters": "High engagement open model with 667 likes and 9,167 downloads.",
+      "upvotes_or_likes": 667,
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "is_new_today": true
+    }
+  ],
+  "trending_tools": [
+    {
+      "repo_name": "Marvisak/VIctory",
+      "language": "Rust",
+      "stars": 9234,
+      "description": "An attempt at running GTA VI on PC",
+      "use_case": "Rapidly emerging open source project in Rust with 9,234 stars.",
+      "url": "https://github.com/Marvisak/VIctory",
+      "is_new_today": true
+    },
+    {
+      "repo_name": "ivall/xcl",
+      "language": "Rust",
+      "stars": 6862,
+      "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "use_case": "Rapidly emerging open source project in Rust with 6,862 stars.",
+      "url": "https://github.com/ivall/xcl",
+      "is_new_today": true
+    },
+    {
+      "repo_name": "EL4CTEO/fast-anything",
+      "language": "Rust",
+      "stars": 3489,
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "use_case": "Rapidly emerging open source project in Rust with 3,489 stars.",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "is_new_today": false
+    },
+    {
+      "repo_name": "AFK-surf/xnulinux",
+      "language": "Objective-C++",
+      "stars": 3005,
+      "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "use_case": "Rapidly emerging open source project in Objective-C++ with 3,005 stars.",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "is_new_today": true
+    },
+    {
+      "repo_name": "iamajmeena/neonclipping",
+      "language": "Python",
+      "stars": 2405,
+      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "use_case": "Rapidly emerging open source project in Python with 2,405 stars.",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "is_new_today": false
+    }
+  ],
+  "tech_news": [
+    {
+      "headline": "Nvidia Reinstates Jensen Huang as CEO",
+      "source": "Hacker News",
+      "analysis": "High-engagement tech story (2697 points) submitted by jaz.",
+      "score": 2697,
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "is_new_today": true
+    },
+    {
+      "headline": "Ladybird is now in alpha",
+      "source": "Hacker News",
+      "analysis": "High-engagement tech story (2200 points) submitted by janvdberg.",
+      "score": 2200,
+      "url": "https://ladybird.org/posts/alpha/",
+      "is_new_today": true
+    },
+    {
+      "headline": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "source": "Hacker News",
+      "analysis": "High-engagement tech story (571 points) submitted by shaunpud.",
+      "score": 571,
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "is_new_today": true
+    },
+    {
+      "headline": "2035 Came Early",
+      "source": "Hacker News",
+      "analysis": "High-engagement tech story (495 points) submitted by setheron.",
+      "score": 495,
+      "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "is_new_today": true
+    },
+    {
+      "headline": "LLM agents work for their parent companies, not for you",
+      "source": "Hacker News",
+      "analysis": "High-engagement tech story (321 points) submitted by surprisetalk.",
+      "score": 321,
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "is_new_today": true
+    }
+  ]
+}
