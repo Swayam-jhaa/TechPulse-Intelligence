@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-24 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-25 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 8
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
 
 ### Highlights
-- Security Alert: 🔥 NEW: CVE-2026-133968 (Project MONAI MONAI Label) is under active wild exploitation [EPSS Exploit Prob: 49.8%]—remediation required.
-- AI Breakthrough: 🔥 'ApexID: Hierarchical Learning for Multi-Species Animal Re-Identification' highlights today's community interest with 0 engagements.
-- Developer Arsenal: 🔥 Repository Marvisak/VIctory surged to 9,234 stars in the Rust ecosystem.
+- NEW: Drupal Core (CVE-2026-132165) RCE vulnerability permits unauthenticated site takeover via install.php.
+- NEW: Optimizely Web Experimentation (CVE-2026-132224) account signup bug allows attackers to inject malicious JavaScript across customer sites.
+- Project MONAI MONAI Label path traversal (CVE-2026-133968) exhibits a critical EPSS exploit probability score of 0.49795 (98.9th percentile).
 
-👉 **[Read Full Daily Intelligence Report (2026-11-24)](reports/2026/11/2026-11-24.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-25)](reports/2026/11/2026-11-25.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
