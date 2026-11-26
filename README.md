@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-25 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-26 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
-> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 4
+> **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 3
 
 ### Highlights
-- NEW: Drupal Core (CVE-2026-132165) RCE vulnerability permits unauthenticated site takeover via install.php.
-- NEW: Optimizely Web Experimentation (CVE-2026-132224) account signup bug allows attackers to inject malicious JavaScript across customer sites.
-- Project MONAI MONAI Label path traversal (CVE-2026-133968) exhibits a critical EPSS exploit probability score of 0.49795 (98.9th percentile).
+- Critical RCE and authentication bypass vulnerabilities identified in Danfoss and Vates infrastructure; immediate patching required.
+- 1Password security incident reported; users and administrators should monitor official advisories for potential impact.
+- AI research is shifting toward 'evaluation-free' self-improvement and efficient token allocation for long-video RAG, reducing computational overhead.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-25)](reports/2026/11/2026-11-25.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-26)](reports/2026/11/2026-11-26.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
