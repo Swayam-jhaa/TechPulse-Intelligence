@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-27",
+    "threat_level": "HIGH",
+    "yesterday_threat_level": "HIGH",
+    "top_epss": 0.3177,
+    "summary": "The global cyber threat climate remains HIGH day-over-day, anchored by severe enterprise and infrastructure vulnerabilities. Most critically, CVE-2026-133469 in Vates Xen Orchestra carries a alarming ...",
+    "cves_count": 5,
+    "ai_count": 3,
+    "tools_count": 3,
+    "news_count": 3,
+    "json_path": "data/2026/11/2026-11-27.json",
+    "md_path": "reports/2026/11/2026-11-27.md"
+  },
+  {
     "date": "2026-11-26",
     "threat_level": "HIGH",
     "yesterday_threat_level": "HIGH",

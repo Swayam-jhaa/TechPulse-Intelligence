@@ -20,16 +20,16 @@ The intelligence is analyzed with **Google Gemini 2.5 Flash**, formatted into st
 ---
 
 <!-- LATEST_INTEL_START -->
-## 🚨 Latest Intelligence: 2026-11-26 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
+## 🚨 Latest Intelligence: 2026-11-27 ![Threat](https://img.shields.io/badge/THREAT-HIGH-orange?style=flat-square) [![RSS Feed](https://img.shields.io/badge/RSS-Feed-orange?style=flat-square&logo=rss)](data/rss.xml)
 
 > **Threat Assessment**: HIGH | **Active CVEs**: 5 | **AI Breakthroughs**: 3
 
 ### Highlights
-- Critical RCE and authentication bypass vulnerabilities identified in Danfoss and Vates infrastructure; immediate patching required.
-- 1Password security incident reported; users and administrators should monitor official advisories for potential impact.
-- AI research is shifting toward 'evaluation-free' self-improvement and efficient token allocation for long-video RAG, reducing computational overhead.
+- Vates Xen Orchestra authentication bypass (CVE-2026-133469) presents immediate takeover risk with an EPSS score of 31.77%.
+- HPE Juniper Session Smart Routers face root command injection (CVE-2026-103406) via salt minion ID manipulation.
+- Unsloth released quantized GGUF weights for Inkling-2-Mini, accelerating localized multimodal model deployment.
 
-👉 **[Read Full Daily Intelligence Report (2026-11-26)](reports/2026/11/2026-11-26.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
+👉 **[Read Full Daily Intelligence Report (2026-11-27)](reports/2026/11/2026-11-27.md)** | 📡 **[Subscribe to RSS Feed](data/rss.xml)**
 <!-- LATEST_INTEL_END -->
 
 ---
